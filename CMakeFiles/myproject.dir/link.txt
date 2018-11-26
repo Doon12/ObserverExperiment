@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/myproject.dir/main.cpp.o  -o myproject -rdynamic libvncxx/liblibvncxx.a -lpthread 

@@ -1,0 +1,950 @@
+------------INIT CAMERA...-------------
+camera_matrix
+[706.2447212646653, 0, 318.7554328200358;
+ 0, 703.8051363974215, 216.8898366400278;
+ 0, 0, 1]
+
+dist coeffs
+[0.06793155859943407, 0.1754909757891273, -0.00411535312221729, 0.005712761003963079, -1.038147075940596]
+------------INIT MPU9250...-------------
+Settings file /home/nvidia/observer_experiment/RTIMULib.ini loaded
+Using fusion algorithm NULL
+min/max compass calibration not in use
+Ellipsoid compass calibration not in use
+Accel calibration not in use
+MPU-9250 init complete
+------------INIT VN100...-------------
+Model Number : VN-100S-CR
+new async frequency: 50 Hz
+new Heading Mode: 0
+Starting Main Loop... 
+MPU-9250 fifo has overflowedVN current YPR: (148.293; 0.921; -169.013)
+VN current Acc: (0.176; 1.878; 9.734)
+VN current Omg: (0.000606; -6.3e-05; -0.000166)
+vn100 thread takes : 0.0279617 s
+*
+MPU Value : : roll:-0.185585, pitch:-0.359834, yaw:-0.284958
+MPU9250 thread takes : 0.0606957 s
+cam thread takes : 1.80662 s
+one loop takes : 1.80867 s
+MPU-9250 fifo has overflowedVN current YPR: (148.292; 0.917; -169.015)
+VN current Acc: (0.159; 1.887; 9.706)
+VN current Omg: (0.000775; -0.000304; 0.00067)
+vn100 thread takes : 0.0188269 s
+cam thread takes : 0.0263268 s
+*
+MPU Value : : roll:-0.213913, pitch:-0.356236, yaw:-0.251926
+MPU9250 thread takes : 0.0594189 s
+one loop takes : 0.0602912 s
+MPU-9250 fifo has overflowedVN current YPR: (148.291; 0.916; -169.015)
+VN current Acc: (0.169; 1.901; 9.713)
+VN current Omg: (0.00165; 0.000762; 0.000338)
+vn100 thread takes : 0.0142465 s
+cam thread takes : 0.0200869 s
+*
+MPU Value : : roll:-0.272139, pitch:-0.352673, yaw:-0.249407
+MPU9250 thread takes : 0.0639726 s
+one loop takes : 0.0743163 s
+MPU-9250 fifo has overflowedVN current YPR: (148.292; 0.915; -169.015)
+VN current Acc: (0.176; 1.869; 9.739)
+VN current Omg: (-0.002325; -0.000802; -0.00089)
+vn100 thread takes : 0.0144018 s
+cam thread takes : 0.0174739 s
+*
+MPU Value : : roll:-0.299601, pitch:-0.379330, yaw:-0.277096
+MPU9250 thread takes : 0.0601373 s
+one loop takes : 0.0704502 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0173621 s
+VN current YPR: (148.291; 0.918; -169.015)
+VN current Acc: (0.163; 1.908; 9.749)
+VN current Omg: (-0.000304; -0.000921; 0.000287)
+vn100 thread takes : 0.024603 s
+*
+MPU Value : : roll:-0.326788, pitch:-0.375536, yaw:-0.334690
+MPU9250 thread takes : 0.0694143 s
+one loop takes : 0.0798101 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0161057 s
+VN current YPR: (148.291; 0.919; -169.014)
+VN current Acc: (0.139; 1.871; 9.704)
+VN current Omg: (0.00064; -0.001165; 0.000681)
+vn100 thread takes : 0.024727 s
+*
+MPU Value : : roll:-0.383886, pitch:-0.371781, yaw:-0.452075
+MPU9250 thread takes : 0.0653092 s
+one loop takes : 0.0757557 s
+MPU-9250 fifo has overflowedVN current YPR: (148.293; 0.918; -169.015)
+VN current Acc: (0.156; 1.875; 9.731)
+VN current Omg: (1.2e-05; 1.4e-05; 0.000561)
+vn100 thread takes : 0.0149589 s
+cam thread takes : 0.0163294 s
+*
+MPU Value : : roll:-0.470596, pitch:-0.337880, yaw:-0.568286
+MPU9250 thread takes : 0.0646685 s
+one loop takes : 0.0750052 s
+MPU-9250 fifo has overflowedVN current YPR: (148.29; 0.918; -169.015)
+VN current Acc: (0.165; 1.875; 9.735)
+VN current Omg: (-4.9e-05; -0.000236; 0.000371)
+vn100 thread takes : 0.0152745 s
+cam thread takes : 0.0178502 s
+*
+MPU Value : : roll:-0.496073, pitch:-0.274136, yaw:-0.622969
+MPU9250 thread takes : 0.0593431 s
+one loop takes : 0.0696693 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0169914 s
+VN current YPR: (148.288; 0.919; -169.015)
+VN current Acc: (0.165; 1.897; 9.739)
+VN current Omg: (0.000676; 0.001308; 1.8e-05)
+vn100 thread takes : 0.0237867 s
+*
+MPU Value : : roll:-0.551478, pitch:-0.180845, yaw:-0.677105
+MPU9250 thread takes : 0.0618685 s
+one loop takes : 0.0722107 s
+MPU-9250 fifo has overflowedVN current YPR: (148.286; 0.918; -169.021)
+VN current Acc: (0.137; 1.889; 9.727)
+VN current Omg: (-0.000702; 0.001305; 0.00035)
+vn100 thread takes : 0.013602 s
+cam thread takes : 0.0165863 s
+*
+MPU Value : : roll:-0.576146, pitch:-0.058306, yaw:-0.730700
+MPU9250 thread takes : 0.0653941 s
+one loop takes : 0.0757212 s
+MPU-9250 fifo has overflowedVN current YPR: (148.283; 0.919; -169.018)
+VN current Acc: (0.175; 1.884; 9.723)
+VN current Omg: (0.002162; 0.001027; 0.001486)
+vn100 thread takes : 0.0156936 s
+cam thread takes : 0.0172949 s
+*
+MPU Value : : roll:-0.630750, pitch:-0.027540, yaw:-0.693210
+MPU9250 thread takes : 0.0630639 s
+one loop takes : 0.0734092 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0172524 s
+VN current YPR: (148.279; 0.917; -169.015)
+VN current Acc: (0.169; 1.898; 9.719)
+VN current Omg: (-0.000263; 0.000883; 0.001203)
+vn100 thread takes : 0.0230313 s
+*
+MPU Value : : roll:-0.745175, pitch:0.002919, yaw:-0.565546
+MPU9250 thread takes : 0.0592831 s
+one loop takes : 0.0695993 s
+MPU-9250 fifo has overflowedVN current YPR: (148.277; 0.919; -169.018)
+VN current Acc: (0.15; 1.882; 9.713)
+VN current Omg: (-0.001246; 0.000599; 0.001151)
+vn100 thread takes : 0.0143183 s
+cam thread takes : 0.0188711 s
+*
+MPU Value : : roll:-0.798089, pitch:0.033072, yaw:-0.439159
+MPU9250 thread takes : 0.0594436 s
+one loop takes : 0.0697609 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0178141 s
+VN current YPR: (148.279; 0.921; -169.02)
+VN current Acc: (0.162; 1.909; 9.747)
+VN current Omg: (-0.00154; -0.000476; -0.000187)
+vn100 thread takes : 0.0233333 s
+*
+MPU Value : : roll:-0.790108, pitch:0.093108, yaw:-0.314036
+MPU9250 thread takes : 0.0594369 s
+one loop takes : 0.0697557 s
+MPU-9250 fifo has overflowedVN current YPR: (148.275; 0.922; -169.018)
+VN current Acc: (0.167; 1.887; 9.715)
+VN current Omg: (0.001846; -0.002278; -0.000646)
+vn100 thread takes : 0.0148385 s
+cam thread takes : 0.0203217 s
+*
+MPU Value : : roll:-0.782207, pitch:0.122359, yaw:-0.190164
+MPU9250 thread takes : 0.0593985 s
+one loop takes : 0.069761 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0156095 s
+VN current YPR: (148.269; 0.923; -169.016)
+VN current Acc: (0.151; 1.901; 9.726)
+VN current Omg: (0.000176; -0.002196; 0.000394)
+vn100 thread takes : 0.0235197 s
+*
+MPU Value : : roll:-0.744202, pitch:0.121136, yaw:-0.158079
+MPU9250 thread takes : 0.062865 s
+one loop takes : 0.0732006 s
+MPU-9250 fifo has overflowedVN current YPR: (148.266; 0.92; -169.019)
+VN current Acc: (0.168; 1.888; 9.713)
+VN current Omg: (-0.003282; -0.00061; 0.001245)
+vn100 thread takes : 0.0133551 s
+cam thread takes : 0.0169696 s
+*
+MPU Value : : roll:0.108362, pitch:0.029376, yaw:0.688623
+MPU9250 thread takes : 0.0652607 s
+one loop takes : 0.0755887 s
+MPU-9250 fifo has overflowedVN current YPR: (148.265; 0.918; -169.018)
+VN current Acc: (0.157; 1.884; 9.75)
+VN current Omg: (-0.000984; 4.6e-05; 0.00077)
+vn100 thread takes : 0.0145876 s
+cam thread takes : 0.016376 s
+*
+MPU Value : : roll:-0.194551, pitch:-0.272747, yaw:0.168627
+MPU9250 thread takes : 0.067218 s
+one loop takes : 0.0775699 s
+MPU-9250 fifo has overflowedVN current YPR: (148.268; 0.917; -169.021)
+VN current Acc: (0.159; 1.899; 9.726)
+VN current Omg: (-0.000419; 0.000279; 0.00047)
+vn100 thread takes : 0.0178772 s
+cam thread takes : 0.0181473 s
+*
+MPU Value : : roll:-0.675532, pitch:-0.270020, yaw:-0.044339
+MPU9250 thread takes : 0.0611425 s
+one loop takes : 0.071463 s
+MPU-9250 fifo has overflowedcam thread takes : 0.01715 s
+VN current YPR: (148.267; 0.916; -169.02)
+VN current Acc: (0.143; 1.895; 9.742)
+VN current Omg: (-0.001028; 0.001333; 0.00053)
+vn100 thread takes : 0.0259532 s
+*
+MPU Value : : roll:-0.034935, pitch:-0.689880, yaw:0.529580
+MPU9250 thread takes : 0.0653309 s
+one loop takes : 0.0756477 s
+MPU-9250 fifo has overflowedVN current YPR: (148.263; 0.918; -169.018)
+VN current Acc: (0.149; 1.882; 9.732)
+VN current Omg: (-0.000274; -0.001324; -0.000296)
+vn100 thread takes : 0.0132994 s
+cam thread takes : 0.0173413 s
+*
+MPU Value : : roll:-0.245866, pitch:0.071591, yaw:0.222455
+MPU9250 thread takes : 0.0613351 s
+one loop takes : 0.07166 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0162377 s
+VN current YPR: (148.262; 0.917; -169.018)
+VN current Acc: (0.14; 1.894; 9.688)
+VN current Omg: (0.000399; -5.4e-05; -0.000311)
+vn100 thread takes : 0.0184792 s
+*
+MPU Value : : roll:-0.273590, pitch:0.251973, yaw:-0.564526
+MPU9250 thread takes : 0.0612691 s
+one loop takes : 0.0715867 s
+MPU-9250 fifo has overflowedVN current YPR: (148.261; 0.917; -169.019)
+VN current Acc: (0.176; 1.895; 9.717)
+VN current Omg: (-0.000834; -0.001415; -0.00084)
+vn100 thread takes : 0.0138112 s
+cam thread takes : 0.0172225 s
+*
+MPU Value : : roll:0.181889, pitch:0.340002, yaw:0.225875
+MPU9250 thread takes : 0.0648303 s
+one loop takes : 0.0751682 s
+MPU-9250 fifo has overflowedVN current YPR: (148.263; 0.919; -169.02)
+VN current Acc: (0.17; 1.884; 9.732)
+VN current Omg: (-0.002175; -0.001288; 0.000128)
+vn100 thread takes : 0.0136492 s
+cam thread takes : 0.0153791 s
+*
+MPU Value : : roll:0.240436, pitch:-0.297239, yaw:0.887641
+MPU9250 thread takes : 0.0616172 s
+one loop takes : 0.0719712 s
+MPU-9250 fifo has overflowedcam thread takes : 0.016516 s
+VN current YPR: (148.262; 0.919; -169.02)
+VN current Acc: (0.148; 1.891; 9.749)
+VN current Omg: (-0.003224; -0.000276; -6.3e-05)
+vn100 thread takes : 0.0191204 s
+*
+MPU Value : : roll:-0.788188, pitch:-0.173535, yaw:0.365655
+MPU9250 thread takes : 0.0651605 s
+one loop takes : 0.0755089 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0190061 s
+VN current YPR: (148.259; 0.918; -169.02)
+VN current Acc: (0.172; 1.9; 9.726)
+VN current Omg: (-0.000542; -0.000823; 0.000841)
+vn100 thread takes : 0.0245043 s
+*
+MPU Value : : roll:-0.538842, pitch:0.160212, yaw:0.271449
+MPU9250 thread takes : 0.0606719 s
+one loop takes : 0.0710102 s
+MPU-9250 fifo has overflowedVN current YPR: (148.259; 0.919; -169.02)
+VN current Acc: (0.195; 1.904; 9.73)
+VN current Omg: (0.001048; 0.000376; 0.000662)
+vn100 thread takes : 0.0146485 s
+cam thread takes : 0.0159193 s
+*
+MPU Value : : roll:0.251302, pitch:0.732086, yaw:-0.063277
+MPU9250 thread takes : 0.0690945 s
+one loop takes : 0.0794203 s
+MPU-9250 fifo has overflowedVN current YPR: (148.261; 0.918; -169.022)
+VN current Acc: (0.147; 1.88; 9.708)
+VN current Omg: (-0.000852; -0.000986; -0.0002)
+vn100 thread takes : 0.0149371 s
+cam thread takes : 0.0160955 s
+*
+MPU Value : : roll:-0.022857, pitch:0.060741, yaw:-0.243742
+MPU9250 thread takes : 0.0614633 s
+one loop takes : 0.0717954 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0167669 s
+VN current YPR: (148.26; 0.919; -169.021)
+VN current Acc: (0.163; 1.868; 9.712)
+VN current Omg: (0.000641; -0.000934; 0.000223)
+vn100 thread takes : 0.0218695 s
+*
+MPU Value : : roll:-0.022629, pitch:0.060133, yaw:0.120891
+MPU9250 thread takes : 0.0593592 s
+one loop takes : 0.0696762 s
+MPU-9250 fifo has overflowedVN current YPR: (148.261; 0.921; -169.02)
+VN current Acc: (0.16; 1.888; 9.711)
+VN current Omg: (0.001287; -0.000835; -0.000288)
+vn100 thread takes : 0.0142537 s
+cam thread takes : 0.0200888 s
+*
+MPU Value : : roll:-0.233683, pitch:-0.302663, yaw:-0.031233
+MPU9250 thread takes : 0.059462 s
+one loop takes : 0.0697872 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0168658 s
+VN current YPR: (148.264; 0.918; -169.022)
+VN current Acc: (0.158; 1.882; 9.679)
+VN current Omg: (0.001576; 0.002083; -0.000477)
+vn100 thread takes : 0.0220989 s
+*
+MPU Value : : roll:0.613776, pitch:0.334205, yaw:0.301092
+MPU9250 thread takes : 0.0649333 s
+one loop takes : 0.0752845 s
+MPU-9250 fifo has overflowedVN current YPR: (148.264; 0.917; -169.02)
+VN current Acc: (0.14; 1.877; 9.707)
+VN current Omg: (-0.000213; 0.000258; 5.7e-05)
+vn100 thread takes : 0.0137848 s
+cam thread takes : 0.0177098 s
+*
+MPU Value : : roll:0.547272, pitch:0.361046, yaw:-0.215029
+MPU9250 thread takes : 0.0592661 s
+one loop takes : 0.0696412 s
+MPU-9250 fifo has overflowedVN current YPR: (148.263; 0.917; -169.017)
+VN current Acc: (0.171; 1.901; 9.709)
+VN current Omg: (0.000476; 0.000548; 0.000266)
+vn100 thread takes : 0.0172035 s
+cam thread takes : 0.0193449 s
+*
+MPU Value : : roll:0.149422, pitch:-0.004760, yaw:-0.212879
+MPU9250 thread takes : 0.0592329 s
+one loop takes : 0.069558 s
+MPU-9250 fifo has overflowedVN current YPR: (148.261; 0.916; -169.019)
+VN current Acc: (0.152; 1.898; 9.74)
+VN current Omg: (-0.002891; -0.001161; -4e-05)
+vn100 thread takes : 0.0133831 s
+cam thread takes : 0.0182061 s
+*
+MPU Value : : roll:-0.274633, pitch:0.508397, yaw:-0.422030
+MPU9250 thread takes : 0.059395 s
+one loop takes : 0.0697399 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0173617 s
+VN current YPR: (148.256; 0.917; -169.018)
+VN current Acc: (0.156; 1.882; 9.73)
+VN current Omg: (-0.001238; -0.002276; 0.000608)
+vn100 thread takes : 0.0183198 s
+*
+MPU Value : : roll:0.120491, pitch:-0.070162, yaw:-0.236713
+MPU9250 thread takes : 0.0657215 s
+one loop takes : 0.0760525 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0175491 s
+VN current YPR: (148.251; 0.915; -169.014)
+VN current Acc: (0.149; 1.9; 9.726)
+VN current Omg: (0.002009; 0.001924; 0.000743)
+vn100 thread takes : 0.0220157 s
+*
+MPU Value : : roll:0.028737, pitch:-0.220375, yaw:-0.143797
+MPU9250 thread takes : 0.0634849 s
+one loop takes : 0.07382 s
+MPU-9250 fifo has overflowedVN current YPR: (148.242; 0.918; -169.015)
+VN current Acc: (0.168; 1.89; 9.707)
+VN current Omg: (-0.002608; -0.001797; -9.8e-05)
+vn100 thread takes : 0.0141787 s
+cam thread takes : 0.0173044 s
+*
+MPU Value : : roll:0.451011, pitch:-0.791647, yaw:0.461300
+MPU9250 thread takes : 0.0648935 s
+one loop takes : 0.0752396 s
+MPU-9250 fifo has overflowedVN current YPR: (148.238; 0.918; -169.016)
+VN current Acc: (0.148; 1.892; 9.72)
+VN current Omg: (-3.6e-05; -0.001641; -0.000375)
+vn100 thread takes : 0.0137886 s
+cam thread takes : 0.0196028 s
+*
+MPU Value : : roll:0.084306, pitch:-0.995011, yaw:-0.207338
+MPU9250 thread takes : 0.0593088 s
+one loop takes : 0.0697558 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0190705 s
+VN current YPR: (148.238; 0.918; -169.013)
+VN current Acc: (0.134; 1.868; 9.725)
+VN current Omg: (-0.001724; 0.000158; 0.00043)
+vn100 thread takes : 0.0227827 s
+*
+MPU Value : : roll:0.596572, pitch:-0.351219, yaw:0.911504
+MPU9250 thread takes : 0.0593107 s
+one loop takes : 0.0696235 s
+MPU-9250 fifo has overflowedVN current YPR: (148.231; 0.917; -169.011)
+VN current Acc: (0.127; 1.923; 9.762)
+VN current Omg: (-6.1e-05; 0.001209; 0.000481)
+vn100 thread takes : 0.0142044 s
+cam thread takes : 0.0153943 s
+*
+MPU Value : : roll:0.530241, pitch:0.527598, yaw:0.479828
+MPU9250 thread takes : 0.0651296 s
+one loop takes : 0.0754904 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0176868 s
+VN current YPR: (148.232; 0.917; -169.013)
+VN current Acc: (0.171; 1.893; 9.697)
+VN current Omg: (-0.001459; -0.000148; -0.000538)
+vn100 thread takes : 0.0183222 s
+*
+MPU Value : : roll:0.766402, pitch:0.461956, yaw:-0.822836
+MPU9250 thread takes : 0.0594472 s
+one loop takes : 0.0697781 s
+MPU-9250 fifo has overflowedVN current YPR: (148.23; 0.916; -169.011)
+VN current Acc: (0.131; 1.884; 9.718)
+VN current Omg: (0.00095; 0.000892; -0.000447)
+vn100 thread takes : 0.0145417 s
+cam thread takes : 0.0181944 s
+*
+MPU Value : : roll:0.305994, pitch:-0.206688, yaw:-0.573144
+MPU9250 thread takes : 0.0597664 s
+one loop takes : 0.070106 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0177771 s
+VN current YPR: (148.23; 0.914; -169.012)
+VN current Acc: (0.124; 1.917; 9.71)
+VN current Omg: (-0.0023; -7.8e-05; 0.000187)
+vn100 thread takes : 0.0181945 s
+*
+MPU Value : : roll:-0.602554, pitch:-0.295170, yaw:0.911551
+MPU9250 thread takes : 0.0595136 s
+one loop takes : 0.0699262 s
+MPU-9250 fifo has overflowedVN current YPR: (148.226; 0.914; -169.01)
+VN current Acc: (0.154; 1.918; 9.704)
+VN current Omg: (-0.000121; -0.001194; -0.000343)
+vn100 thread takes : 0.0142116 s
+cam thread takes : 0.0163161 s
+*
+MPU Value : : roll:-0.023053, pitch:-0.382767, yaw:0.660972
+MPU9250 thread takes : 0.0651925 s
+one loop takes : 0.0755378 s
+MPU-9250 fifo has overflowedVN current YPR: (148.222; 0.914; -169.009)
+VN current Acc: (0.167; 1.895; 9.724)
+VN current Omg: (0.004532; 0.00046; 0.000824)
+vn100 thread takes : 0.0139928 s
+cam thread takes : 0.0165353 s
+*
+MPU Value : : roll:-0.053005, pitch:0.073804, yaw:0.050703
+MPU9250 thread takes : 0.0610371 s
+one loop takes : 0.071375 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0185238 s
+VN current YPR: (148.22; 0.912; -169.008)
+VN current Acc: (0.153; 1.884; 9.74)
+VN current Omg: (0.000896; 0.001613; -0.000864)
+vn100 thread takes : 0.020932 s
+*
+MPU Value : : roll:0.158805, pitch:0.586176, yaw:-0.945840
+MPU9250 thread takes : 0.061605 s
+one loop takes : 0.071923 s
+MPU-9250 fifo has overflowedVN current YPR: (148.224; 0.913; -169.008)
+VN current Acc: (0.179; 1.913; 9.727)
+VN current Omg: (0.000703; -0.001236; 0.000959)
+vn100 thread takes : 0.0139559 s
+cam thread takes : 0.0175212 s
+*
+MPU Value : : roll:-0.204978, pitch:-0.868466, yaw:0.180386
+MPU9250 thread takes : 0.0652998 s
+one loop takes : 0.0756291 s
+MPU-9250 fifo has overflowedVN current YPR: (148.224; 0.914; -169.007)
+VN current Acc: (0.165; 1.895; 9.719)
+VN current Omg: (0.004231; -0.000675; 0.000429)
+vn100 thread takes : 0.0141778 s
+cam thread takes : 0.0173061 s
+*
+MPU Value : : roll:0.702560, pitch:0.256987, yaw:0.027668
+MPU9250 thread takes : 0.0652891 s
+one loop takes : 0.0757068 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0163827 s
+VN current YPR: (148.224; 0.913; -169.007)
+VN current Acc: (0.135; 1.888; 9.715)
+VN current Omg: (0.000476; 0.00101; -0.00093)
+vn100 thread takes : 0.0179983 s
+*
+MPU Value : : roll:-0.421234, pitch:-1.164181, yaw:-0.334804
+MPU9250 thread takes : 0.06118 s
+one loop takes : 0.0715263 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0165283 s
+VN current YPR: (148.223; 0.913; -169.008)
+VN current Acc: (0.179; 1.883; 9.715)
+VN current Omg: (0.000195; -0.000338; 0.000896)
+vn100 thread takes : 0.0265496 s
+*
+MPU Value : : roll:-0.054827, pitch:0.084961, yaw:-0.754017
+MPU9250 thread takes : 0.0611785 s
+one loop takes : 0.0714925 s
+MPU-9250 fifo has overflowedVN current YPR: (148.223; 0.913; -169.007)
+VN current Acc: (0.152; 1.894; 9.727)
+VN current Omg: (0.000325; -0.000205; -0.000471)
+vn100 thread takes : 0.0151736 s
+cam thread takes : 0.0153298 s
+*
+MPU Value : : roll:-0.295742, pitch:-0.489364, yaw:0.521206
+MPU9250 thread takes : 0.0615366 s
+one loop takes : 0.071869 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0161824 s
+VN current YPR: (148.22; 0.912; -169.008)
+VN current Acc: (0.156; 1.878; 9.717)
+VN current Omg: (-0.001376; -0.000985; 0.000481)
+vn100 thread takes : 0.0227532 s
+*
+MPU Value : : roll:-0.594614, pitch:-0.484471, yaw:0.033067
+MPU9250 thread takes : 0.0593131 s
+one loop takes : 0.0696469 s
+MPU-9250 fifo has overflowedVN current YPR: (148.218; 0.912; -169.007)
+VN current Acc: (0.171; 1.906; 9.707)
+VN current Omg: (0.0005; -0.000738; -0.001416)
+vn100 thread takes : 0.0157189 s
+cam thread takes : 0.016474 s
+*
+MPU Value : : roll:0.407369, pitch:-0.268345, yaw:-0.872751
+MPU9250 thread takes : 0.0630897 s
+one loop takes : 0.0734369 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0180136 s
+VN current YPR: (148.224; 0.914; -169.006)
+VN current Acc: (0.179; 1.894; 9.715)
+VN current Omg: (0.004291; 0.000596; 0.000198)
+vn100 thread takes : 0.0194275 s
+*
+MPU Value : : roll:0.312747, pitch:0.700192, yaw:-0.501828
+MPU9250 thread takes : 0.0651633 s
+one loop takes : 0.0754976 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0176777 s
+VN current YPR: (148.22; 0.916; -169.006)
+VN current Acc: (0.177; 1.861; 9.722)
+VN current Omg: (0.000329; 0.000411; 0.000318)
+vn100 thread takes : 0.0238327 s
+*
+MPU Value : : roll:-0.112942, pitch:0.451726, yaw:-0.768456
+MPU9250 thread takes : 0.0594434 s
+one loop takes : 0.0697666 s
+MPU-9250 fifo has overflowedVN current YPR: (148.214; 0.915; -169.01)
+VN current Acc: (0.142; 1.874; 9.723)
+VN current Omg: (-0.001256; -9.4e-05; 0.000733)
+vn100 thread takes : 0.0149592 s
+cam thread takes : 0.0189002 s
+*
+MPU Value : : roll:-0.262727, pitch:-0.669559, yaw:0.355996
+MPU9250 thread takes : 0.0595469 s
+one loop takes : 0.0698657 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0197575 s
+VN current YPR: (148.212; 0.914; -169.011)
+VN current Acc: (0.147; 1.894; 9.72)
+VN current Omg: (-0.000917; -0.000637; -0.001094)
+vn100 thread takes : 0.0248572 s
+*
+MPU Value : : roll:-1.421264, pitch:-0.395169, yaw:0.386484
+MPU9250 thread takes : 0.059287 s
+one loop takes : 0.0696299 s
+MPU-9250 fifo has overflowedVN current YPR: (148.21; 0.914; -169.009)
+VN current Acc: (0.137; 1.906; 9.742)
+VN current Omg: (-0.001295; -0.001119; 0.000392)
+vn100 thread takes : 0.0150213 s
+cam thread takes : 0.0175414 s
+*
+MPU Value : : roll:-0.561929, pitch:-0.029023, yaw:0.563717
+MPU9250 thread takes : 0.0594235 s
+one loop takes : 0.0698027 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0173837 s
+VN current YPR: (148.208; 0.914; -169.011)
+VN current Acc: (0.139; 1.908; 9.738)
+VN current Omg: (-0.001752; 3e-06; 0.000565)
+vn100 thread takes : 0.0250914 s
+*
+MPU Value : : roll:-0.133749, pitch:-0.722939, yaw:-0.558689
+MPU9250 thread takes : 0.0649878 s
+one loop takes : 0.0753558 s
+MPU-9250 fifo has overflowedVN current YPR: (148.206; 0.914; -169.011)
+VN current Acc: (0.161; 1.889; 9.724)
+VN current Omg: (-0.000317; 3.1e-05; -0.000504)
+vn100 thread takes : 0.0139609 s
+cam thread takes : 0.0173196 s
+*
+MPU Value : : roll:-0.464423, pitch:1.155631, yaw:-0.432370
+MPU9250 thread takes : 0.0596086 s
+one loop takes : 0.0699318 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0194944 s
+VN current YPR: (148.206; 0.913; -169.011)
+VN current Acc: (0.169; 1.861; 9.726)
+VN current Omg: (-6.6e-05; -0.000179; -0.000786)
+vn100 thread takes : 0.0196206 s
+*
+MPU Value : : roll:0.083514, pitch:-0.395254, yaw:-0.548778
+MPU9250 thread takes : 0.0592521 s
+one loop takes : 0.069554 s
+MPU-9250 fifo has overflowedVN current YPR: (148.208; 0.914; -169.012)
+VN current Acc: (0.176; 1.885; 9.723)
+VN current Omg: (-0.001067; 0.001417; 0.000777)
+vn100 thread takes : 0.01395 s
+cam thread takes : 0.01571 s
+*
+MPU Value : : roll:-0.400248, pitch:0.544369, yaw:0.090551
+MPU9250 thread takes : 0.0612306 s
+one loop takes : 0.0715528 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0166325 s
+VN current YPR: (148.209; 0.913; -169.014)
+VN current Acc: (0.155; 1.899; 9.688)
+VN current Omg: (-0.002581; -0.000782; -7.3e-05)
+vn100 thread takes : 0.0181692 s
+*
+MPU Value : : roll:0.207413, pitch:-0.909855, yaw:0.300926
+MPU9250 thread takes : 0.0602579 s
+one loop takes : 0.0705901 s
+MPU-9250 fifo has overflowedVN current YPR: (148.206; 0.913; -169.012)
+VN current Acc: (0.172; 1.912; 9.743)
+VN current Omg: (0.000645; -0.001211; 0.001046)
+vn100 thread takes : 0.0146679 s
+cam thread takes : 0.0167102 s
+*
+MPU Value : : roll:0.114790, pitch:-0.055635, yaw:-0.094461
+MPU9250 thread takes : 0.0594045 s
+one loop takes : 0.0697188 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0167717 s
+VN current YPR: (148.203; 0.916; -169.009)
+VN current Acc: (0.172; 1.887; 9.725)
+VN current Omg: (0.000943; -0.001408; -6.5e-05)
+vn100 thread takes : 0.0185001 s
+*
+MPU Value : : roll:0.053276, pitch:-0.145627, yaw:-0.334980
+MPU9250 thread takes : 0.0648839 s
+one loop takes : 0.075227 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0158837 s
+VN current YPR: (148.206; 0.914; -169.011)
+VN current Acc: (0.156; 1.891; 9.717)
+VN current Omg: (-0.002141; -2.3e-05; -9.2e-05)
+vn100 thread takes : 0.0230947 s
+*
+MPU Value : : roll:-0.400001, pitch:0.248207, yaw:-1.176752
+MPU9250 thread takes : 0.0647669 s
+one loop takes : 0.0751176 s
+MPU-9250 fifo has overflowedVN current YPR: (148.203; 0.914; -169.01)
+VN current Acc: (0.175; 1.901; 9.701)
+VN current Omg: (-0.000772; -0.000437; 0.000576)
+vn100 thread takes : 0.0140687 s
+cam thread takes : 0.0150883 s
+*
+MPU Value : : roll:-0.184720, pitch:-0.659762, yaw:-0.621692
+MPU9250 thread takes : 0.0618082 s
+one loop takes : 0.072128 s
+MPU-9250 fifo has overflowedVN current YPR: (148.205; 0.915; -169.009)
+VN current Acc: (0.184; 1.89; 9.723)
+VN current Omg: (0.001667; 0.00088; 0.000848)
+vn100 thread takes : 0.0157964 s
+cam thread takes : 0.017269 s
+*
+MPU Value : : roll:-0.243239, pitch:-0.954994, yaw:1.557696
+MPU9250 thread takes : 0.0661905 s
+one loop takes : 0.0765311 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0154228 s
+VN current YPR: (148.205; 0.915; -169.008)
+VN current Acc: (0.175; 1.878; 9.718)
+VN current Omg: (-0.001411; 0.000972; 0.000941)
+vn100 thread takes : 0.0188938 s
+*
+MPU Value : : roll:0.181754, pitch:-0.160688, yaw:0.123521
+MPU9250 thread takes : 0.0656634 s
+one loop takes : 0.0759885 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0181013 s
+VN current YPR: (148.208; 0.915; -169.008)
+VN current Acc: (0.175; 1.889; 9.728)
+VN current Omg: (-0.001006; -0.000386; 0.000414)
+vn100 thread takes : 0.0228101 s
+*
+MPU Value : : roll:0.481766, pitch:-0.340179, yaw:0.092103
+MPU9250 thread takes : 0.0626273 s
+one loop takes : 0.0729504 s
+MPU-9250 fifo has overflowedVN current YPR: (148.211; 0.916; -169.007)
+VN current Acc: (0.163; 1.888; 9.731)
+VN current Omg: (0.000567; -0.000568; -0.000482)
+vn100 thread takes : 0.013934 s
+cam thread takes : 0.0156863 s
+*
+MPU Value : : roll:-0.428539, pitch:0.146150, yaw:0.272280
+MPU9250 thread takes : 0.0593634 s
+one loop takes : 0.0696812 s
+MPU-9250 fifo has overflowedcam thread takes : 0.018191 s
+VN current YPR: (148.211; 0.917; -169.01)
+VN current Acc: (0.176; 1.897; 9.707)
+VN current Omg: (0.001104; -0.000279; 0.000332)
+vn100 thread takes : 0.0208157 s
+*
+MPU Value : : roll:-0.273339, pitch:0.537066, yaw:-0.032272
+MPU9250 thread takes : 0.0651533 s
+one loop takes : 0.0754819 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0171629 s
+VN current YPR: (148.211; 0.916; -169.009)
+VN current Acc: (0.137; 1.886; 9.725)
+VN current Omg: (-0.001311; -0.000161; -0.000721)
+vn100 thread takes : 0.0251651 s
+*
+MPU Value : : roll:-0.089508, pitch:-0.132329, yaw:0.662258
+MPU9250 thread takes : 0.0601856 s
+one loop takes : 0.0705517 s
+MPU-9250 fifo has overflowedVN current YPR: (148.206; 0.917; -169.01)
+VN current Acc: (0.191; 1.901; 9.748)
+VN current Omg: (-0.005865; -0.000674; -6.3e-05)
+vn100 thread takes : 0.0146351 s
+cam thread takes : 0.0171757 s
+*
+MPU Value : : roll:-0.752637, pitch:-0.855396, yaw:0.172708
+MPU9250 thread takes : 0.0651646 s
+one loop takes : 0.0755314 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0164936 s
+VN current YPR: (148.203; 0.918; -169.009)
+VN current Acc: (0.153; 1.895; 9.758)
+VN current Omg: (-0.007994; -0.002197; 0.000632)
+vn100 thread takes : 0.018756 s
+*
+MPU Value : : roll:-0.413099, pitch:-0.545013, yaw:-0.493043
+MPU9250 thread takes : 0.0645679 s
+one loop takes : 0.0748908 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0168894 s
+VN current YPR: (148.209; 0.916; -169.006)
+VN current Acc: (0.157; 1.871; 9.751)
+VN current Omg: (-0.005103; 0.002389; 0.001401)
+vn100 thread takes : 0.0237335 s
+*
+MPU Value : : roll:-0.620249, pitch:-0.177367, yaw:0.055180
+MPU9250 thread takes : 0.068222 s
+one loop takes : 0.0785531 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0160058 s
+VN current YPR: (148.208; 0.918; -169.014)
+VN current Acc: (0.144; 1.86; 9.697)
+VN current Omg: (-0.002243; -0.00261; 0.000248)
+vn100 thread takes : 0.0259459 s
+*
+MPU Value : : roll:0.472539, pitch:-0.024679, yaw:0.477189
+MPU9250 thread takes : 0.0612662 s
+one loop takes : 0.0715964 s
+MPU-9250 fifo has overflowedVN current YPR: (148.209; 0.918; -169.014)
+VN current Acc: (0.16; 1.908; 9.72)
+VN current Omg: (0.001627; -0.000384; 0.000282)
+vn100 thread takes : 0.0144086 s
+cam thread takes : 0.0156566 s
+*
+MPU Value : : roll:-0.226393, pitch:-0.205530, yaw:-0.070875
+MPU9250 thread takes : 0.0596901 s
+one loop takes : 0.0700166 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0157681 s
+VN current YPR: (148.207; 0.921; -169.021)
+VN current Acc: (0.15; 1.865; 9.753)
+VN current Omg: (-0.004447; -0.001274; 0.000479)
+vn100 thread takes : 0.0241473 s
+*
+MPU Value : : roll:0.047517, pitch:0.128538, yaw:-0.371996
+MPU9250 thread takes : 0.0660888 s
+one loop takes : 0.0764182 s
+MPU-9250 fifo has overflowedVN current YPR: (148.205; 0.922; -169.024)
+VN current Acc: (0.171; 1.874; 9.749)
+VN current Omg: (-0.002691; 7e-06; -2.2e-05)
+vn100 thread takes : 0.0136842 s
+cam thread takes : 0.0169021 s
+*
+MPU Value : : roll:0.590334, pitch:-0.204760, yaw:-1.605776
+MPU9250 thread takes : 0.0653174 s
+one loop takes : 0.075657 s
+MPU-9250 fifo has overflowedVN current YPR: (148.206; 0.922; -169.021)
+VN current Acc: (0.145; 1.888; 9.726)
+VN current Omg: (0.005373; 0.000498; -0.000727)
+vn100 thread takes : 0.0138244 s
+cam thread takes : 0.015377 s
+*
+MPU Value : : roll:-0.019227, pitch:0.068934, yaw:0.975830
+MPU9250 thread takes : 0.0651879 s
+one loop takes : 0.0755735 s
+MPU-9250 fifo has overflowedVN current YPR: cam thread takes : 0.01605 s
+(148.205; 0.918; -169.018)
+VN current Acc: (0.181; 1.889; 9.693)
+VN current Omg: (-0.001548; 0.001425; 0.000155)
+vn100 thread takes : 0.0161077 s
+*
+MPU Value : : roll:0.101697, pitch:-0.203401, yaw:-0.180879
+MPU9250 thread takes : 0.0616219 s
+one loop takes : 0.0719668 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0151156 s
+VN current YPR: (148.204; 0.918; -169.021)
+VN current Acc: (0.164; 1.886; 9.688)
+VN current Omg: (-0.003827; -0.001763; -0.00154)
+vn100 thread takes : 0.023841 s
+*
+MPU Value : : roll:-0.352064, pitch:-0.563562, yaw:-0.360168
+MPU9250 thread takes : 0.0661433 s
+one loop takes : 0.0764745 s
+MPU-9250 fifo has overflowedVN current YPR: (148.203; 0.919; -169.02)
+VN current Acc: (0.162; 1.899; 9.731)
+VN current Omg: (-0.001573; -0.00021; 0.001031)
+vn100 thread takes : 0.0133469 s
+cam thread takes : 0.0177249 s
+*
+MPU Value : : roll:-0.076897, pitch:0.136280, yaw:-0.447115
+MPU9250 thread takes : 0.0625658 s
+one loop takes : 0.0728996 s
+MPU-9250 fifo has overflowedVN current YPR: (148.207; 0.917; -169.019)
+VN current Acc: (0.159; 1.873; 9.678)
+VN current Omg: (-0.0019; 0.001369; -5e-05)
+vn100 thread takes : 0.0155629 s
+cam thread takes : 0.0161665 s
+*
+MPU Value : : roll:-0.166677, pitch:0.557478, yaw:-0.170997
+MPU9250 thread takes : 0.0593601 s
+one loop takes : 0.06969 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0163244 s
+VN current YPR: (148.211; 0.919; -169.019)
+VN current Acc: (0.143; 1.908; 9.739)
+VN current Omg: (-0.003445; -0.00103; -0.000323)
+vn100 thread takes : 0.0253019 s
+*
+MPU Value : : roll:-0.527205, pitch:0.340623, yaw:-0.350385
+MPU9250 thread takes : 0.0674331 s
+one loop takes : 0.0777661 s
+MPU-9250 fifo has overflowedVN current YPR: (148.209; 0.919; -169.015)
+VN current Acc: (0.146; 1.883; 9.748)
+VN current Omg: (-0.000936; -0.00074; -0.000378)
+vn100 thread takes : 0.0144989 s
+cam thread takes : 0.0164558 s
+*
+MPU Value : : roll:-0.250287, pitch:-0.417356, yaw:0.286960
+MPU9250 thread takes : 0.0652987 s
+one loop takes : 0.0756374 s
+MPU-9250 fifo has overflowedVN current YPR: (148.209; 0.919; -169.016)
+VN current Acc: (0.156; 1.893; 9.721)
+VN current Omg: (-0.002716; 0.001031; 0.000318)
+vn100 thread takes : 0.0137589 s
+cam thread takes : 0.0183475 s
+*
+MPU Value : : roll:0.748252, pitch:-0.232085, yaw:0.102993
+MPU9250 thread takes : 0.0620752 s
+one loop takes : 0.0724037 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0183022 s
+VN current YPR: (148.207; 0.92; -169.018)
+VN current Acc: (0.176; 1.875; 9.713)
+VN current Omg: (-0.001765; -0.001287; -0.000177)
+vn100 thread takes : 0.0190534 s
+*
+MPU Value : : roll:0.046562, pitch:0.162614, yaw:-0.592244
+MPU9250 thread takes : 0.0594443 s
+one loop takes : 0.0697963 s
+MPU-9250 fifo has overflowedVN current YPR: (148.21; 0.919; -169.019)
+VN current Acc: (0.166; 1.867; 9.744)
+VN current Omg: (0.001127; 0.000785; -0.000502)
+vn100 thread takes : 0.0141816 s
+cam thread takes : 0.0192775 s
+*
+MPU Value : : roll:-0.406647, pitch:0.643915, yaw:-0.375041
+MPU9250 thread takes : 0.0667782 s
+one loop takes : 0.0773132 s
+MPU-9250 fifo has overflowedVN current YPR: (148.208; 0.918; -169.02)
+VN current Acc: (0.151; 1.868; 9.722)
+VN current Omg: (0.000484; 0.001566; 0.000145)
+vn100 thread takes : 0.0137421 s
+cam thread takes : 0.0173137 s
+*
+MPU Value : : roll:0.533090, pitch:0.184732, yaw:0.775660
+MPU9250 thread takes : 0.0647761 s
+one loop takes : 0.0752327 s
+MPU-9250 fifo has overflowedVN current YPR: (148.212; 0.918; -169.02)
+VN current Acc: (0.152; 1.906; 9.723)
+VN current Omg: (0.001547; 0.00157; -0.000165)
+vn100 thread takes : 0.0162776 s
+cam thread takes : 0.0178946 s
+*
+MPU Value : : roll:0.376845, pitch:0.182885, yaw:-1.103438
+MPU9250 thread takes : 0.0595093 s
+one loop takes : 0.0698197 s
+MPU-9250 fifo has overflowedVN current YPR: (148.211; 0.918; -169.021)
+VN current Acc: (0.139; 1.886; 9.716)
+VN current Omg: (-0.000484; 3.2e-05; 0.001381)
+vn100 thread takes : 0.0133676 s
+cam thread takes : 0.0169599 s
+*
+MPU Value : : roll:-0.019302, pitch:-0.332054, yaw:-1.092403
+MPU9250 thread takes : 0.0616251 s
+one loop takes : 0.0719946 s
+MPU-9250 fifo has overflowedVN current YPR: (148.212; 0.917; -169.023)
+VN current Acc: (0.167; 1.892; 9.731)
+VN current Omg: (-0.003663; -0.001697; -0.00058)
+vn100 thread takes : 0.0151764 s
+cam thread takes : 0.0167314 s
+*
+MPU Value : : roll:0.071440, pitch:0.154193, yaw:-0.025077
+MPU9250 thread takes : 0.0655152 s
+one loop takes : 0.0758358 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0162028 s
+VN current YPR: (148.208; 0.917; -169.02)
+VN current Acc: (0.141; 1.907; 9.72)
+VN current Omg: (-0.000753; 0.001269; 0.000723)
+vn100 thread takes : 0.0190884 s
+*
+MPU Value : : roll:0.734750, pitch:0.333749, yaw:0.427918
+MPU9250 thread takes : 0.0652544 s
+one loop takes : 0.0755849 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0151275 s
+VN current YPR: (148.211; 0.916; -169.022)
+VN current Acc: (0.143; 1.875; 9.712)
+VN current Omg: (-0.000426; -0.00067; 8.3e-05)
+vn100 thread takes : 0.0235616 s
+*
+MPU Value : : roll:-0.057354, pitch:0.149314, yaw:0.212358
+MPU9250 thread takes : 0.0673431 s
+one loop takes : 0.0776724 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0146428 s
+VN current YPR: (148.209; 0.917; -169.023)
+VN current Acc: (0.161; 1.882; 9.75)
+VN current Omg: (0.001253; 0.001339; -0.00018)
+vn100 thread takes : 0.0255965 s
+*
+MPU Value : : roll:0.154500, pitch:-0.123825, yaw:-0.544338
+MPU9250 thread takes : 0.0613971 s
+one loop takes : 0.0717188 s
+MPU-9250 fifo has overflowedVN current YPR: (148.208; 0.917; -169.022)
+VN current Acc: (0.168; 1.867; 9.718)
+VN current Omg: (-0.002762; 4.6e-05; -0.001238)
+vn100 thread takes : 0.013964 s
+cam thread takes : 0.0193288 s
+*
+MPU Value : : roll:-0.028142, pitch:0.481071, yaw:0.125129
+MPU9250 thread takes : 0.0591761 s
+one loop takes : 0.0695054 s
+MPU-9250 fifo has overflowedcam thread takes : 0.016336 s
+VN current YPR: (148.213; 0.917; -169.022)
+VN current Acc: (0.155; 1.882; 9.713)
+VN current Omg: (-0.001524; -0.00029; -0.000454)
+vn100 thread takes : 0.0241035 s
+*
+MPU Value : : roll:-0.390056, pitch:-0.217947, yaw:-0.841976
+MPU9250 thread takes : 0.0656012 s
+one loop takes : 0.0759344 s
+MPU-9250 fifo has overflowedVN current YPR: (148.21; 0.917; -169.023)
+VN current Acc: (0.162; 1.885; 9.749)
+VN current Omg: (0.001938; -0.000441; -0.001143)
+vn100 thread takes : 0.0155651 s
+cam thread takes : 0.0157594 s
+*
+MPU Value : : roll:0.790979, pitch:1.021733, yaw:0.524676
+MPU9250 thread takes : 0.0612346 s
+one loop takes : 0.0717869 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0161987 s
+VN current YPR: (148.205; 0.916; -169.024)
+VN current Acc: (0.176; 1.89; 9.753)
+VN current Omg: (0.000166; -0.000574; -0.0002)
+vn100 thread takes : 0.0172131 s
+*
+MPU Value : : roll:-0.575163, pitch:0.226760, yaw:-0.989717
+MPU9250 thread takes : 0.0688322 s
+one loop takes : 0.079261 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0162523 s
+VN current YPR: (148.209; 0.916; -169.024)
+VN current Acc: (0.162; 1.887; 9.706)
+VN current Omg: (-0.003206; -0.001608; -0.000259)
+vn100 thread takes : 0.0175924 s
+*
+MPU Value : : roll:-0.146850, pitch:-0.801728, yaw:-0.889271
+MPU9250 thread takes : 0.0655918 s
+one loop takes : 0.0759496 s
+MPU-9250 fifo has overflowedcam thread takes : 0.0168643 s
+VN current YPR: (148.208; 0.919; -169.022)
+VN current Acc: (0.15; 1.889; 9.731)
+VN current Omg: (0.002229; 0.001634; -0.00023)
+vn100 thread takes : 0.0214541 s
+*
+MPU Value : : roll:0.277179, pitch:-0.250418, yaw:0.296755
+MPU9250 thread takes : 0.0598419 s
+one loop takes : 0.0701741 s
+MPU-9250 fifo has overflowedVN current YPR: (148.21; 0.917; -169.018)
+VN current Acc: (0.145; 1.892; 9.714)
+VN current Omg: (0.002672; 0.000496; -0.000749)

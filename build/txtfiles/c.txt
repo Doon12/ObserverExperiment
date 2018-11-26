@@ -1,0 +1,260 @@
+------------INIT CAMERA...-------------
+camera_matrix
+[706.2447212646653, 0, 318.7554328200358;
+ 0, 703.8051363974215, 216.8898366400278;
+ 0, 0, 1]
+
+dist coeffs
+[0.06793155859943407, 0.1754909757891273, -0.00411535312221729, 0.005712761003963079, -1.038147075940596]
+------------INIT MPU9250...-------------
+Settings file /home/nvidia/observer_experiment/RTIMULib.ini loaded
+Using fusion algorithm NULL
+min/max compass calibration not in use
+Ellipsoid compass calibration not in use
+Accel calibration not in use
+MPU-9250 init complete
+------------INIT VN100...-------------
+Model Number : VN-100S-CR
+new async frequency: 50 Hz
+new Heading Mode: 0
+Starting Main Loop... 
+MPU-9250 fifo has overflowedVN current YPR: (170.301; 0.703; -165.933)
+VN current Acc: (0.136; 2.401; 9.565)
+VN current Omg: (-0.007039; 0.000112; 4.4e-05)
+*
+Sample rate 0: : roll:-0.381079, pitch:0.891492, yaw:-0.115640
+MPU-9250 fifo has overflowed-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+-------------100 marker -----------
+tvecs	-2.15039	1.11798	5.9467
+
+
+
+one loop takes : 1.99346 s
+MPU-9250 fifo has overflowedVN current YPR: (170.268; 0.702; -165.933)
+VN current Acc: (0.125; 2.402; 9.554)
+VN current Omg: (0.000714; -0.00032; 0.000485)
+-------------100 marker -----------
+tvecs	-2.1563	1.11997	5.95855
+
+
+
+-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+*
+Sample rate 1: : roll:-0.296100, pitch:0.710291, yaw:-0.338388
+MPU-9250 fifo has overflowedone loop takes : 0.313861 s
+MPU-9250 fifo has overflowed-------------100 marker -----------
+tvecs	-2.1563	1.11997	5.95855
+
+
+
+-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+VN current YPR: (170.28; 0.712; -165.937)
+VN current Acc: (0.112; 2.407; 9.599)
+VN current Omg: (-0.00215; 5e-05; 6e-06)
+*
+Sample rate 2: : roll:-0.401603, pitch:0.282845, yaw:0.224123
+MPU-9250 fifo has overflowedone loop takes : 0.324788 s
+MPU-9250 fifo has overflowedVN current YPR: (170.287; 0.709; -165.937)
+VN current Acc: (0.144; 2.383; 9.588)
+VN current Omg: (-0.005898; 0.000269; 0.000564)
+-------------100 marker -----------
+tvecs	-2.1563	1.11997	5.95855
+
+
+
+-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+*
+Sample rate 2: : roll:-0.105724, pitch:0.037162, yaw:6.720199
+MPU-9250 fifo has overflowedone loop takes : 0.323912 s
+MPU-9250 fifo has overflowedVN current YPR: (170.294; 0.707; -165.927)
+VN current Acc: (0.124; 2.42; 9.613)
+VN current Omg: (-0.004868; 0.000183; 0.000955)
+-------------100 marker -----------
+tvecs	-2.1563	1.11997	5.95855
+
+
+
+-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+*
+Sample rate 2: : roll:-0.212086, pitch:0.149540, yaw:0.262910
+MPU-9250 fifo has overflowedone loop takes : 0.325643 s
+MPU-9250 fifo has overflowedVN current YPR: (170.299; 0.709; -165.929)
+VN current Acc: (0.144; 2.428; 9.594)
+VN current Omg: (-0.001605; 8.4e-05; 0.000802)
+-------------100 marker -----------
+tvecs	-2.1563	1.11997	5.95855
+
+
+
+-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+*
+Sample rate 2: : roll:-0.130223, pitch:-0.530865, yaw:0.777081
+MPU-9250 fifo has overflowedone loop takes : 0.324703 s
+MPU-9250 fifo has overflowedVN current YPR: (170.289; 0.71; -165.932)
+VN current Acc: (0.117; 2.418; 9.573)
+VN current Omg: (-0.014131; -9.2e-05; 0.001305)
+-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+-------------100 marker -----------
+tvecs	-2.15039	1.11798	5.9467
+
+
+
+*
+Sample rate 22: : roll:0.061037, pitch:0.924554, yaw:0.034037
+MPU-9250 fifo has overflowedone loop takes : 0.32484 s
+MPU-9250 fifo has overflowedVN current YPR: (170.293; 0.712; -165.933)
+VN current Acc: (0.142; 2.381; 9.622)
+VN current Omg: (-0.001578; 0.000185; 8.6e-05)
+-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+-------------100 marker -----------
+tvecs	-2.15039	1.11798	5.9467
+
+
+
+*
+Sample rate 22: : roll:0.020418, pitch:0.309938, yaw:0.284057
+MPU-9250 fifo has overflowedone loop takes : 0.32447 s
+MPU-9250 fifo has overflowedVN current YPR: (170.291; 0.715; -165.932)
+VN current Acc: (0.12; 2.425; 9.578)
+VN current Omg: (0.003312; 0.000831; 0.000644)
+-------------100 marker -----------
+tvecs	-2.16906	1.125	5.98742
+
+
+
+-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+*
+Sample rate 22: : roll:0.415610, pitch:-0.343927, yaw:0.650454
+MPU-9250 fifo has overflowedone loop takes : 0.330411 s
+MPU-9250 fifo has overflowedVN current YPR: (170.284; 0.717; -165.929)
+VN current Acc: (0.146; 2.407; 9.598)
+VN current Omg: (0.001959; -0.001728; 0.000245)
+-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+-------------100 marker -----------
+tvecs	-2.15039	1.11798	5.9467
+
+
+
+*
+Sample rate 22: : roll:0.432284, pitch:-0.283586, yaw:0.475193
+MPU-9250 fifo has overflowedone loop takes : 0.325229 s
+MPU-9250 fifo has overflowedVN current YPR: (170.276; 0.724; -165.943)
+VN current Acc: (0.138; 2.381; 9.563)
+VN current Omg: (-0.014075; -0.001824; 0.001827)
+-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+-------------100 marker -----------
+tvecs	-2.15039	1.11798	5.9467
+
+
+
+*
+Sample rate 21: : roll:-0.233104, pitch:-0.579151, yaw:0.063904
+MPU-9250 fifo has overflowedone loop takes : 0.320887 s
+MPU-9250 fifo has overflowed-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+-------------100 marker -----------
+tvecs	-2.15039	1.11798	5.9467
+
+
+
+VN current YPR: (170.277; 0.721; -165.935)
+VN current Acc: (0.12; 2.411; 9.593)
+VN current Omg: (0.01779; 0.001814; -0.0015)
+*
+Sample rate 21: : roll:0.169661, pitch:0.351269, yaw:-0.171840
+MPU-9250 fifo has overflowedone loop takes : 0.325707 s
+MPU-9250 fifo has overflowed-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+-------------100 marker -----------
+tvecs	-2.15039	1.11798	5.9467
+
+
+
+VN current YPR: (170.274; 0.721; -165.93)
+VN current Acc: (0.125; 2.401; 9.616)
+VN current Omg: (0.006181; 0.001695; -0.000793)
+*
+Sample rate 21: : roll:-0.007535, pitch:0.475124, yaw:-0.422342
+MPU-9250 fifo has overflowedone loop takes : 0.327423 s
+MPU-9250 fifo has overflowedVN current YPR: (170.286; 0.717; -165.93)
+VN current Acc: (0.114; 2.383; 9.577)
+VN current Omg: (0.01132; 0.000288; -0.000121)
+-------------100 marker -----------
+tvecs	-2.1563	1.11997	5.95855
+
+
+
+-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+*
+Sample rate 21: : roll:0.264474, pitch:-0.303699, yaw:-0.585330
+MPU-9250 fifo has overflowedone loop takes : 0.32587 s
+MPU-9250 fifo has overflowed-------------100 marker -----------
+tvecs	-2.20201	1.14324	6.08135
+
+
+
+-------------101 marker -----------
+tvecs	-0.848443	1.22155	5.89206
+
+
+
+VN current YPR: (170.282; 0.715; -165.94)
+VN current Acc: (0.147; 2.392; 9.613)
+VN current Omg: (0.021405; 0.001844; -0.001469)
+*
+Sample rate 24: : roll:0.330318, pitch:-0.370318, yaw:-0.729236
+MPU-9250 fifo has overflowed
