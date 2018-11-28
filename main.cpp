@@ -44,8 +44,6 @@ typedef std::vector<double, Eigen::aligned_allocator<double>> vec_d;
 
 
 // Method declaration for future use.
-void asciiAsyncMessageReceived(void* userData, Packet& p, size_t index);
-void asciiOrBinaryAsyncMessageReceived(void* userData, Packet& p, size_t index);
 void updateCamera();
 void updateMPU9250();
 void updateVN100();
@@ -54,7 +52,8 @@ void updateProposedObserver(double t, double dt);
 double getBiasError(string obs_type);
 double getAttitudeError(string obs_type);
 Matrix3d getRotationMatrix(double yaw, double pitch, double roll);
-
+Matrix3d R();
+Matrix3d C();
 // Camera Variables
 cv::VideoCapture in_video;
 cv::Mat image, image_copy;
@@ -84,8 +83,8 @@ float true_omega_x, true_omega_y, true_omega_z;
 float true_attitude_x, true_attitude_y, true_attitude_z;
 
 //Observer variables
-static double ki = 20;
-static double kp = 4;
+static double ki = 4;
+static double kp = 20;
 static Matrix3d W;
 static Matrix<double,3,1> e1;
 static Matrix<double,3,1> e2;
@@ -122,13 +121,22 @@ Matrix<double, 3, 1> Omega(){
 
 Matrix3d R(){
     Matrix3d R_t;
-    R_t << cam1_x, cam1_y, cam1_z, cam2_x, cam2_y, cam2_z, g_x, g_y, g_z;
+    //R_t = getRotationMatrix(true_attitude_x, true_attitude_y, true_attitude_z);
+    
+    
+    Matrix3d A;
+    A = S * W * (C().transpose());
+    R_t = F.inverse() * A;
     return R_t;
 }
 
 Matrix3d C(){
-    Matrix3d R_t = R();
-    Matrix3d C_t = R_t.transpose() * S;
+    //Matrix3d R_t = R();
+    //Matrix3d C_t = R_t.transpose() * S;
+    
+    
+    Matrix3d C_t;
+    C_t << cam1_x, cam1_y, cam1_z, cam2_x, cam2_y, cam2_z, g_x, g_y, g_z;
     return C_t;
 }
 
@@ -271,10 +279,8 @@ int main(int argc, char *argv[])
 	}
 
 	imu->IMUInit();
-	//imu->setSlerpPower(0.02);
 	imu->setGyroEnable(true);
 	imu->setAccelEnable(true);
-	//imu->setCompassEnable(true);
 	cout << imu->IMUName() << endl;
 	cout << imu->IMUGetPollInterval() << endl;
 	/*******************
@@ -323,13 +329,20 @@ int main(int argc, char *argv[])
     //s2 = e2;
     //s3 = e3;
     
-    s1 = 0.000*e1+0.149*e2+0.989*e3;
-    s2 = 0.162*e1+0.056*e2+0.985*e3;
-    s3 = 0.470*e1+0.882*e2+0.020*e3;
-    s1 = s1/s1.norm();
-    s2 = s2/s2.norm();
-    s3 = s3/s3.norm();
+    //camera init
+    s1 = -0.2139*e1+0.0627*e2+0.9698*e3;
+    s2 = -0.0317*e1+0.1169*e2+0.9887*e3;
+    s3 = -0.0117*e1+0.9996*e2-0.0258*e3;
     S << s1,s2,s3;
+    //rotation matrix
+    Matrix<double,3,1> Rinit_1, Rinit_2, Rinit_3;
+    Rinit_1 = 0.9999*e1-0.0027*e2-0.0141*e3;
+    Rinit_2 = 0.0140*e1-0.0281*e2+0.9995*e3;
+    Rinit_3 = -0.0031*e1-0.9996*e2-0.0281*e3;
+    Matrix3d Rinit;
+    Rinit << Rinit_1, Rinit_2, Rinit_3;
+    S = Rinit * S;
+
     std::cout << "S is " << S << std::endl;
     std::cout << "W is " << W << std::endl;    
     F = S * W * S.transpose();
@@ -344,17 +357,16 @@ int main(int argc, char *argv[])
 
     MatrixXd mat_Abar_init(3,3);
     mat_Abar_init = F * mat_Rbar_init;
+    vec_d Rbar_init(mat_Rbar_init.data(), mat_Rbar_init.data() + mat_Rbar_init.size());    
     vec_d Abar_init(mat_Abar_init.data(), mat_Abar_init.data() + mat_Abar_init.size());
     Y_init_proposed.reserve(12);
     Y_init_proposed.insert( Y_init_proposed.end(), Abar_init.begin(), Abar_init.end() );
     Y_init_proposed.insert( Y_init_proposed.end(), bbar_init.begin(), bbar_init.end() ); 
     Y_init_mahony.reserve(12);
-    Y_init_mahony.insert( Y_init_mahony.end(), Abar_init.begin(), Abar_init.end() );
+    Y_init_mahony.insert( Y_init_mahony.end(), Rbar_init.begin(), Rbar_init.end() );
     Y_init_mahony.insert( Y_init_mahony.end(), bbar_init.begin(), bbar_init.end() ); 
 	
 	
-	//std::cout << "Y_init_Proposed is " << Y_init_proposed << std::endl;
-	//std::cout << "Y_init_Mahony is " << Y_init_mahony << std::endl;
 	std::cout << "Y_mahony is \n";
 	for(auto i=Y_init_mahony.begin(); i!=Y_init_mahony.end();++i){
 		std::cout << *i << " ";
@@ -450,7 +462,7 @@ int main(int argc, char *argv[])
 		//] 
  
 	}
-	//myfile.close();
+	myfile.close();
     in_video.release();
 	////////////////////////////////////////////////////////////////
 
@@ -469,11 +481,10 @@ double getBiasError(string obs_type){
 	double bias_bar_x = Y_init[9];
 	double bias_bar_y = Y_init[10];
 	double bias_bar_z = Y_init[11];
-	std::cout << bias_bar_x << bias_bar_y << bias_bar_y << std::endl;
 	double bias_x = -true_omega_x + omega_x;
 	double bias_y = -true_omega_y + omega_y;
 	double bias_z = -true_omega_z + omega_z;
-	double retval;
+	double retval=0.0;
 	retval += (bias_x-bias_bar_x)*(bias_x-bias_bar_x);
 	retval += (bias_y-bias_bar_y)*(bias_y-bias_bar_y);
 	retval += (bias_z-bias_bar_z)*(bias_z-bias_bar_z);
@@ -490,12 +501,17 @@ double getAttitudeError(string obs_type){
 		Y_init = Y_init_proposed;
 	}
 	double retval;
+    //Matrix3d true_attitude = R();
 	Matrix3d true_attitude = getRotationMatrix(true_attitude_x, true_attitude_y, true_attitude_z);
-	Matrix3d estimate_attitude;
-	estimate_attitude << Y_init[0], Y_init[1], Y_init[2],
-						 Y_init[3], Y_init[4], Y_init[5],
-						 Y_init[6], Y_init[7], Y_init[8];
-	estimate_attitude = F.inverse() * estimate_attitude;
+	Matrix3d estimate_attitude;// = R();
+	estimate_attitude << Y_init[0], Y_init[3], Y_init[6],
+						 Y_init[1], Y_init[4], Y_init[7],
+						 Y_init[2], Y_init[5], Y_init[8];
+
+	if(obs_type.compare("proposed")==0){
+	    estimate_attitude = F.inverse() * estimate_attitude;	
+	}
+	
 	retval = (true_attitude - estimate_attitude).norm();
 	return retval;
 }
@@ -512,26 +528,6 @@ Matrix3d getRotationMatrix(double yaw, double pitch, double roll){
 	retMatrix(1,2) = sin(yaw)*sin(pitch)*cos(roll)-cos(yaw)*sin(roll);
 	retMatrix(2,2) = cos(pitch)*cos(roll);
 	return retMatrix;
-}
-
-
-void asciiAsyncMessageReceived(void* userData, Packet& p, size_t index)
-{
-	if (p.type() != Packet::TYPE_ASCII)
-		return;
-	
-	if (p.determineAsciiAsyncType() != VNQMR)
-		return;
-
-	vec4f quat;
-	vec3f mag, accel, ar;
-
-	p.parseVNQMR(&quat, &mag, &accel, &ar);
-
-	cout << "ASCII Async QUAT: " << quat << endl;
-	cout << "ASCII Async MAG: " << mag << endl;
-	cout << "ASCII Async ACCEL: " << accel << endl;
-	cout << "ASCII Async AR: " << ar << endl<<endl;
 }
 
 void updateProposedObserver(double t, double dt){
@@ -630,41 +626,6 @@ void updateMPU9250(){
 	else if(omega_z < -1){
 		omega_z = -1;
 	}
-	
-	////Wait until IMU can get data
-	//while(1){
-		//int count=0;
-		//printf("*\n");
-
-		//while(imu->IMURead()){
-			//count++;
-			////if(imu->IMURead()){
-			//RTIMU_DATA imuData = imu->getIMUData();
-			//printf("MPU Value : %s\n", RTMath::displayDegrees("",imuData.gyro));
-			//printf("MPU time  : %d\n", (int)imuData.timestamp);
-			//fflush(stdout);
-			//printf("count : %d\n",count);
-			//std::chrono::time_point<std::chrono::system_clock> end = std::chrono::system_clock::now();
-			//std::chrono::duration<double> elapsed_time = end-start;
-			//std::cout << "MPU9250 thread takes : " << elapsed_time.count() << " s\n";
-		//}
-
-		
-	//}
-		//sampleCount++;
-		//now = RTMath::currentUSecsSinceEpoch();
-		//if((now-displayTimer)>100000){
-			//printf("Sample rate %d: %s\n", sampleRate,  RTMath::displayDegrees("",imuData.gyro));
-			//fflush(stdout);
-			//displayTimer = now;
-		//}
-
-		//if((now- rateTimer) > 1000000) {
-			//sampleRate = sampleCount;
-			//sampleCount = 0;
-			//rateTimer = now;
-		//}
-	//}
 
 }
 
@@ -684,6 +645,9 @@ void updateVN100(){
 	true_attitude_x = reg.yawPitchRoll.c[0];
 	true_attitude_y = reg.yawPitchRoll.c[1];
 	true_attitude_z = reg.yawPitchRoll.c[2];
+	Matrix3d true_attitude_matrix = getRotationMatrix(true_attitude_x, true_attitude_y, true_attitude_z);
+	cout << "true attitude :" << endl;
+	cout << true_attitude_matrix << endl;
 	true_omega_x = reg.gyro.c[0];
 	true_omega_y = reg.gyro.c[1];
 	true_omega_z = reg.gyro.c[2];
@@ -691,6 +655,7 @@ void updateVN100(){
 	//omega_x = true_omega_x + 1;
 	//omega_y = true_omega_x - 1;
 	//omega_z = true_omega_x - 1;		
+	
 	g_x = -reg.accel.c[0];
 	g_y = -reg.accel.c[1];
 	g_z = -reg.accel.c[2];
@@ -698,33 +663,4 @@ void updateVN100(){
 	g_x /= magG;
 	g_y /= magG;	
 	g_z /= magG;
-}
-
-
-void asciiOrBinaryAsyncMessageReceived(void* userData, Packet& p, size_t index)
-{
-	if (p.type() == Packet::TYPE_ASCII && p.determineAsciiAsyncType() == VNYPR)
-	{
-		vec3f ypr;
-		p.parseVNYPR(&ypr);
-		cout << "ASCII Async YPR: " << ypr << endl;
-		return;
-	}
-
-	if (p.type() == Packet::TYPE_BINARY)
-	{
-		if(!p.isCompatible(
-					COMMONGROUP_TIMESTARTUP | COMMONGROUP_YAWPITCHROLL,
-					TIMEGROUP_NONE,
-					IMUGROUP_NONE,
-					GPSGROUP_NONE,
-					ATTITUDEGROUP_NONE,
-					INSGROUP_NONE))
-			return;
-
-		uint64_t timeStartup = p.extractUint64();
-		vec3f ypr = p.extractVec3f();
-		cout << "Binary Async TimeStartup: " << timeStartup << endl;
-		cout << "Binary Async YPR: " << ypr << endl;
-	}
 }
