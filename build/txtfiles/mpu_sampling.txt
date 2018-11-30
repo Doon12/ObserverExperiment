@@ -1,0 +1,2423 @@
+------------INIT CAMERA...-------------
+camera_matrix
+[706.2447212646653, 0, 318.7554328200358;
+ 0, 703.8051363974215, 216.8898366400278;
+ 0, 0, 1]
+
+dist coeffs
+[0.06793155859943407, 0.1754909757891273, -0.00411535312221729, 0.005712761003963079, -1.038147075940596]
+------------INIT MPU9250...-------------
+Settings file /home/nvidia/observer_experiment/RTIMULib.ini loaded
+Using fusion algorithm NULL
+min/max compass calibration not in use
+Ellipsoid compass calibration not in use
+Accel calibration not in use
+MPU-9250 init complete
+------------INIT VN100...-------------
+Model Number : VN-100S-CR
+new async frequency: 50 Hz
+new Heading Mode: 0
+Starting Main Loop... 
+MPU-9250 fifo has overflowedVN current YPR: (112.59; 0.148; -166.364)
+VN current Acc: (0.008; 2.339; 9.617)
+VN current Omg: (-0.003851; -0.00108; 0.0001)
+vn100 thread takes : 0.013625 s
+cam thread takes : 0.0229134 s
+*
+MPU Value : : roll:-0.462154, pitch:1.178230, yaw:-0.720159
+MPU time  : -559656429
+MPU9250 thread takes : 0.0530001 s
+*
+MPU Value : : roll:-0.502204, pitch:1.277442, yaw:-0.896231
+MPU time  : -559636429
+count : 1
+MPU9250 thread takes : 0.0543173 s
+MPU Value : : roll:-0.511384, pitch:1.460491, yaw:-0.977455
+MPU time  : -559616429
+count : 2
+MPU9250 thread takes : 0.0599635 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.520197, pitch:1.636217, yaw:-0.996893
+MPU time  : -558736429
+count : 1
+MPU9250 thread takes : 0.111772 s
+MPU Value : : roll:-0.440853, pitch:1.775647, yaw:-0.986286
+MPU time  : -558716429
+count : 2
+MPU9250 thread takes : 0.112082 s
+MPU Value : : roll:-0.335414, pitch:1.880231, yaw:-0.888298
+MPU time  : -558696429
+count : 3
+MPU9250 thread takes : 0.112387 s
+MPU Value : : roll:-0.204924, pitch:1.922095, yaw:-0.706424
+MPU time  : -558676429
+count : 4
+MPU9250 thread takes : 0.112751 s
+MPU Value : : roll:-0.108922, pitch:1.933016, yaw:-0.502558
+MPU time  : -558656429
+count : 5
+MPU9250 thread takes : 0.113078 s
+MPU Value : : roll:-0.016760, pitch:2.031305, yaw:-0.277577
+MPU time  : -558636429
+count : 6
+MPU9250 thread takes : 0.118644 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.100983, pitch:2.037858, yaw:-0.061596
+MPU time  : -557756429
+count : 1
+MPU9250 thread takes : 0.170615 s
+MPU Value : : roll:0.214017, pitch:2.102685, yaw:0.028672
+MPU time  : -557736429
+count : 2
+MPU9250 thread takes : 0.171001 s
+MPU Value : : roll:0.322530, pitch:2.164919, yaw:0.086062
+MPU time  : -557716429
+count : 3
+MPU9250 thread takes : 0.171309 s
+MPU Value : : roll:0.426702, pitch:2.136858, yaw:0.141156
+MPU time  : -557696429
+count : 4
+MPU9250 thread takes : 0.17174 s
+MPU Value : : roll:0.526707, pitch:2.139189, yaw:0.194047
+MPU time  : -557676429
+count : 5
+MPU9250 thread takes : 0.172106 s
+MPU Value : : roll:0.593443, pitch:2.082890, yaw:0.215553
+MPU time  : -557656429
+count : 6
+MPU9250 thread takes : 0.17768 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.628242, pitch:1.999574, yaw:0.265467
+MPU time  : -556776429
+count : 1
+MPU9250 thread takes : 0.229475 s
+MPU Value : : roll:-263.640056, pitch:-183.244318, yaw:211.119112
+MPU time  : -556756429
+count : 2
+MPU9250 thread takes : 0.229898 s
+MPU Value : : roll:2.427023, pitch:213.462973, yaw:234.503234
+MPU time  : -556736429
+count : 3
+MPU9250 thread takes : 0.230209 s
+MPU Value : : roll:0.475803, pitch:-2.787011, yaw:-0.222337
+MPU time  : -556716429
+count : 4
+MPU9250 thread takes : 0.230514 s
+MPU Value : : roll:0.427503, pitch:-2.763336, yaw:-0.213444
+MPU time  : -556696429
+count : 5
+MPU9250 thread takes : 0.230864 s
+MPU Value : : roll:0.381134, pitch:-2.769875, yaw:-0.175638
+MPU time  : -556676429
+count : 6
+MPU9250 thread takes : 0.236461 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.395157, pitch:-2.805422, yaw:-0.197881
+MPU time  : -555796429
+count : 1
+MPU9250 thread takes : 0.288246 s
+MPU Value : : roll:0.437887, pitch:-2.810278, yaw:-0.219234
+MPU time  : -555776429
+count : 2
+MPU9250 thread takes : 0.288554 s
+MPU Value : : roll:0.449640, pitch:-2.814940, yaw:-0.181196
+MPU time  : -555756429
+count : 3
+MPU9250 thread takes : 0.28888 s
+MPU Value : : roll:0.460923, pitch:-2.819416, yaw:-0.115412
+MPU time  : -555736429
+count : 4
+MPU9250 thread takes : 0.289223 s
+MPU Value : : roll:0.471754, pitch:-2.735907, yaw:-0.081527
+MPU time  : -555716429
+count : 5
+MPU9250 thread takes : 0.289531 s
+MPU Value : : roll:0.482152, pitch:-2.655739, yaw:0.068076
+MPU time  : -555696429
+count : 6
+MPU9250 thread takes : 0.289923 s
+MPU Value : : roll:0.433598, pitch:-2.637315, yaw:0.153158
+MPU time  : -555676429
+count : 7
+MPU9250 thread takes : 0.295555 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.357718, pitch:-2.531822, yaw:0.205568
+MPU time  : -554796429
+count : 1
+MPU9250 thread takes : 0.347238 s
+MPU Value : : roll:0.284872, pitch:-2.430549, yaw:0.255882
+MPU time  : -554776429
+count : 2
+MPU9250 thread takes : 0.347648 s
+MPU Value : : roll:0.214941, pitch:-2.333328, yaw:0.187110
+MPU time  : -554756429
+count : 3
+MPU9250 thread takes : 0.347962 s
+MPU Value : : roll:0.147807, pitch:-2.210726, yaw:0.062552
+MPU time  : -554736429
+count : 4
+MPU9250 thread takes : 0.348267 s
+MPU Value : : roll:0.112626, pitch:-2.034492, yaw:-0.027755
+MPU time  : -554716429
+count : 5
+MPU9250 thread takes : 0.348664 s
+MPU Value : : roll:0.078853, pitch:-1.894576, yaw:-0.055913
+MPU time  : -554696429
+count : 6
+MPU9250 thread takes : 0.354247 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.631796, pitch:1.020231, yaw:-0.258554
+MPU time  : -553816429
+count : 1
+MPU9250 thread takes : 0.406082 s
+MPU Value : : roll:0.606524, pitch:1.008690, yaw:-0.189676
+MPU time  : -553796429
+count : 2
+MPU9250 thread takes : 0.406477 s
+MPU Value : : roll:0.523727, pitch:0.997611, yaw:-0.123552
+MPU time  : -553776429
+count : 3
+MPU9250 thread takes : 0.40679 s
+MPU Value : : roll:0.444241, pitch:1.016243, yaw:-0.147878
+MPU time  : -553756429
+count : 4
+MPU9250 thread takes : 0.407093 s
+MPU Value : : roll:0.397203, pitch:1.004862, yaw:-0.141963
+MPU time  : -553736429
+count : 5
+MPU9250 thread takes : 0.407569 s
+MPU Value : : roll:0.381315, pitch:0.993936, yaw:-0.136285
+MPU time  : -553716429
+count : 6
+MPU9250 thread takes : 0.413211 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.307526, pitch:0.924910, yaw:-0.160101
+MPU time  : -552836429
+count : 1
+MPU9250 thread takes : 0.465057 s
+MPU Value : : roll:0.236688, pitch:0.829377, yaw:-0.153697
+MPU time  : -552816429
+count : 2
+MPU9250 thread takes : 0.465487 s
+MPU Value : : roll:0.139416, pitch:0.708397, yaw:-0.089013
+MPU time  : -552796429
+count : 3
+MPU9250 thread takes : 0.465836 s
+MPU Value : : roll:0.075303, pitch:0.650793, yaw:0.031621
+MPU time  : -552776429
+count : 4
+MPU9250 thread takes : 0.466196 s
+MPU Value : : roll:0.013754, pitch:0.595493, yaw:0.205966
+MPU time  : -552756429
+count : 5
+MPU9250 thread takes : 0.466579 s
+MPU Value : : roll:0.013204, pitch:0.571673, yaw:0.285532
+MPU time  : -552736429
+count : 6
+MPU9250 thread takes : 0.472186 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.012676, pitch:0.578074, yaw:0.244842
+MPU time  : -551856429
+count : 1
+MPU9250 thread takes : 0.523951 s
+MPU Value : : roll:0.012169, pitch:0.554951, yaw:0.176512
+MPU time  : -551836429
+count : 2
+MPU9250 thread takes : 0.524308 s
+MPU Value : : roll:0.040950, pitch:0.591290, yaw:0.110915
+MPU time  : -551816429
+count : 3
+MPU9250 thread takes : 0.524618 s
+MPU Value : : roll:0.068581, pitch:0.655444, yaw:0.047942
+MPU time  : -551796429
+count : 4
+MPU9250 thread takes : 0.524921 s
+MPU Value : : roll:0.973154, pitch:-1.097603, yaw:0.163097
+MPU time  : -551776429
+count : 5
+MPU9250 thread takes : 0.525296 s
+MPU Value : : roll:0.817155, pitch:-1.258577, yaw:0.332183
+MPU time  : -551756429
+count : 6
+MPU9250 thread takes : 0.5256 s
+MPU Value : : roll:0.667396, pitch:-1.383844, yaw:0.523774
+MPU time  : -551736429
+count : 7
+MPU9250 thread takes : 0.531237 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.523627, pitch:-1.445563, yaw:0.649164
+MPU time  : -550856429
+count : 1
+MPU9250 thread takes : 0.583166 s
+MPU Value : : roll:0.356340, pitch:-1.417009, yaw:0.652466
+MPU time  : -550836429
+count : 2
+MPU9250 thread takes : 0.583606 s
+MPU Value : : roll:0.195745, pitch:-1.301792, yaw:0.655636
+MPU time  : -550816429
+count : 3
+MPU9250 thread takes : 0.583911 s
+MPU Value : : roll:0.041574, pitch:-1.191184, yaw:0.687947
+MPU time  : -550796429
+count : 4
+MPU9250 thread takes : 0.584256 s
+MPU Value : : roll:-0.106430, pitch:-1.114268, yaw:0.748234
+MPU time  : -550776429
+count : 5
+MPU9250 thread takes : 0.584563 s
+MPU Value : : roll:-0.248515, pitch:-1.069697, yaw:0.776841
+MPU time  : -550756429
+count : 6
+MPU9250 thread takes : 0.590208 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.355647, pitch:-1.056178, yaw:0.775036
+MPU time  : -549876429
+count : 1
+MPU9250 thread takes : 0.641927 s
+MPU Value : : roll:-0.429226, pitch:-1.013930, yaw:0.773303
+MPU time  : -549856429
+count : 2
+MPU9250 thread takes : 0.642277 s
+MPU Value : : roll:-0.412057, pitch:-0.944105, yaw:0.713102
+MPU time  : -549836429
+count : 3
+MPU9250 thread takes : 0.64258 s
+MPU Value : : roll:-0.424843, pitch:-0.935609, yaw:0.713846
+MPU time  : -549816429
+count : 4
+MPU9250 thread takes : 0.642882 s
+MPU Value : : roll:-0.378581, pitch:-0.927453, yaw:0.685293
+MPU time  : -549796429
+count : 5
+MPU9250 thread takes : 0.64325 s
+MPU Value : : roll:-0.334170, pitch:-0.861087, yaw:0.570076
+MPU time  : -549776429
+count : 6
+MPU9250 thread takes : 0.649016 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.291535, pitch:-0.826643, yaw:0.430200
+MPU time  : -548896429
+count : 1
+MPU9250 thread takes : 0.700786 s
+MPU Value : : roll:-1.362800, pitch:-0.998456, yaw:-0.523594
+MPU time  : -548876429
+count : 2
+MPU9250 thread takes : 0.701142 s
+MPU Value : : roll:-1.279020, pitch:-0.841444, yaw:-0.356308
+MPU time  : -548856429
+count : 3
+MPU9250 thread takes : 0.701423 s
+MPU Value : : roll:-1.198591, pitch:-0.661445, yaw:-0.224983
+MPU time  : -548836429
+count : 4
+MPU9250 thread takes : 0.701701 s
+MPU Value : : roll:-1.092110, pitch:-0.488646, yaw:-0.098910
+MPU time  : -548816429
+count : 5
+MPU9250 thread takes : 0.701991 s
+MPU Value : : roll:-0.989889, pitch:-0.322758, yaw:0.080656
+MPU time  : -548796429
+count : 6
+MPU9250 thread takes : 0.702296 s
+MPU Value : : roll:-0.891757, pitch:-0.192775, yaw:0.165234
+MPU time  : -548776429
+count : 7
+MPU9250 thread takes : 0.708002 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.739014, pitch:-0.097259, yaw:0.246430
+MPU time  : -547896429
+count : 1
+MPU9250 thread takes : 0.759805 s
+MPU Value : : roll:-0.563112, pitch:0.023705, yaw:0.382914
+MPU time  : -547876429
+count : 2
+MPU9250 thread takes : 0.760092 s
+MPU Value : : roll:-0.394246, pitch:0.022756, yaw:0.455402
+MPU time  : -547856429
+count : 3
+MPU9250 thread takes : 0.760369 s
+MPU Value : : roll:-0.232135, pitch:0.021846, yaw:0.495723
+MPU time  : -547836429
+count : 4
+MPU9250 thread takes : 0.760683 s
+MPU Value : : roll:-0.105776, pitch:-0.037564, yaw:0.622236
+MPU time  : -547816429
+count : 5
+MPU9250 thread takes : 0.761025 s
+MPU Value : : roll:0.015528, pitch:-0.123867, yaw:0.685151
+MPU time  : -547796429
+count : 6
+MPU9250 thread takes : 0.761314 s
+MPU Value : : roll:0.131980, pitch:-0.118912, yaw:0.657745
+MPU time  : -547776429
+count : 7
+MPU9250 thread takes : 0.766925 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.214506, pitch:-0.114156, yaw:0.572899
+MPU time  : -546896429
+count : 1
+MPU9250 thread takes : 0.818566 s
+MPU Value : : roll:0.293731, pitch:-0.138858, yaw:0.432909
+MPU time  : -546876429
+count : 2
+MPU9250 thread takes : 0.81889 s
+MPU Value : : roll:0.340518, pitch:-0.162572, yaw:0.239983
+MPU time  : -546856429
+count : 3
+MPU9250 thread takes : 0.81917 s
+MPU Value : : roll:1.175678, pitch:2.682956, yaw:-0.998884
+MPU time  : -546836429
+count : 4
+MPU9250 thread takes : 0.81953 s
+MPU Value : : roll:1.040846, pitch:2.429296, yaw:-0.958929
+MPU time  : -546816429
+count : 5
+MPU9250 thread takes : 0.819818 s
+MPU Value : : roll:0.911407, pitch:2.215051, yaw:-0.920572
+MPU time  : -546796429
+count : 6
+MPU9250 thread takes : 0.820104 s
+MPU Value : : roll:0.757878, pitch:2.009375, yaw:-0.913017
+MPU time  : -546776429
+count : 7
+MPU9250 thread takes : 0.825622 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.610489, pitch:1.811927, yaw:-0.905765
+MPU time  : -545896429
+count : 1
+MPU9250 thread takes : 0.877216 s
+MPU Value : : roll:0.498265, pitch:1.680913, yaw:-0.869534
+MPU time  : -545876429
+count : 2
+MPU9250 thread takes : 0.877598 s
+MPU Value : : roll:0.390529, pitch:1.584408, yaw:-0.805485
+MPU time  : -545856429
+count : 3
+MPU9250 thread takes : 0.877916 s
+MPU Value : : roll:0.257835, pitch:1.550301, yaw:-0.773265
+MPU time  : -545836429
+count : 4
+MPU9250 thread takes : 0.878198 s
+MPU Value : : roll:0.159717, pitch:1.488288, yaw:-0.713066
+MPU time  : -545816429
+count : 5
+MPU9250 thread takes : 0.878476 s
+MPU Value : : roll:0.006987, pitch:1.428757, yaw:-0.655275
+MPU time  : -545796429
+count : 6
+MPU9250 thread takes : 0.878922 s
+MPU Value : : roll:-0.168902, pitch:1.342338, yaw:-0.570528
+MPU time  : -545776429
+count : 7
+MPU9250 thread takes : 0.885483 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.337756, pitch:1.259376, yaw:-0.430633
+MPU time  : -544896429
+count : 1
+MPU9250 thread takes : 0.937081 s
+MPU Value : : roll:-0.529124, pitch:1.209001, yaw:-0.325603
+MPU time  : -544876429
+count : 2
+MPU9250 thread takes : 0.937368 s
+MPU Value : : roll:-0.712837, pitch:1.131373, yaw:-0.254042
+MPU time  : -544856429
+count : 3
+MPU9250 thread takes : 0.937673 s
+MPU Value : : roll:-0.801397, pitch:1.056849, yaw:-0.185344
+MPU time  : -544836429
+count : 4
+MPU9250 thread takes : 0.937959 s
+MPU Value : : roll:-0.827877, pitch:0.956039, yaw:-0.207199
+MPU time  : -544816429
+count : 5
+MPU9250 thread takes : 0.938272 s
+MPU Value : : roll:0.054018, pitch:-0.223666, yaw:0.298650
+MPU time  : -544796429
+count : 6
+MPU9250 thread takes : 0.938588 s
+MPU Value : : roll:-0.006679, pitch:-0.331793, yaw:0.228168
+MPU time  : -544776429
+count : 7
+MPU9250 thread takes : 0.944183 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.006412, pitch:-0.464863, yaw:0.219041
+MPU time  : -543896429
+count : 1
+MPU9250 thread takes : 0.995965 s
+MPU Value : : roll:-0.035424, pitch:-0.563341, yaw:0.210279
+MPU time  : -543876429
+count : 2
+MPU9250 thread takes : 0.996271 s
+MPU Value : : roll:-0.034007, pitch:-0.628613, yaw:0.143331
+MPU time  : -543856429
+count : 3
+MPU9250 thread takes : 0.996624 s
+MPU Value : : roll:-0.032647, pitch:-0.632736, yaw:0.079062
+MPU time  : -543836429
+count : 4
+MPU9250 thread takes : 0.996906 s
+MPU Value : : roll:-0.031341, pitch:-0.636695, yaw:0.075899
+MPU time  : -543816429
+count : 5
+MPU9250 thread takes : 0.997184 s
+MPU Value : : roll:-0.000819, pitch:-0.699032, yaw:0.102132
+MPU time  : -543796429
+count : 6
+MPU9250 thread takes : 0.997528 s
+MPU Value : : roll:0.057750, pitch:-0.758876, yaw:0.156583
+MPU time  : -543776429
+count : 7
+MPU9250 thread takes : 1.00305 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.113977, pitch:-0.757789, yaw:0.238124
+MPU time  : -542896429
+count : 1
+MPU9250 thread takes : 1.05494 s
+MPU Value : : roll:0.167955, pitch:-0.815282, yaw:0.287136
+MPU time  : -542876429
+count : 2
+MPU9250 thread takes : 1.05538 s
+MPU Value : : roll:0.219773, pitch:-0.841207, yaw:0.304919
+MPU time  : -542856429
+count : 3
+MPU9250 thread takes : 1.05571 s
+MPU Value : : roll:0.240250, pitch:-0.836828, yaw:0.351259
+MPU time  : -542836429
+count : 4
+MPU9250 thread takes : 1.05604 s
+MPU Value : : roll:0.259909, pitch:-0.803354, yaw:0.307940
+MPU time  : -542816429
+count : 5
+MPU9250 thread takes : 1.05637 s
+MPU Value : : roll:0.249512, pitch:-0.712684, yaw:0.149281
+MPU time  : -542796429
+count : 6
+MPU9250 thread takes : 1.06202 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.268800, pitch:-0.567103, yaw:-0.003032
+MPU time  : -541916429
+count : 1
+MPU9250 thread takes : 1.11382 s
+MPU Value : : roll:0.199512, pitch:0.684849, yaw:-0.471203
+MPU time  : -541896429
+count : 2
+MPU9250 thread takes : 1.11424 s
+MPU Value : : roll:0.162263, pitch:0.774528, yaw:-0.335282
+MPU time  : -541876429
+count : 3
+MPU9250 thread takes : 1.11455 s
+MPU Value : : roll:0.155772, pitch:0.860620, yaw:-0.146261
+MPU time  : -541856429
+count : 4
+MPU9250 thread takes : 1.11485 s
+MPU Value : : roll:0.178810, pitch:0.943268, yaw:-0.023337
+MPU time  : -541836429
+count : 5
+MPU9250 thread takes : 1.11522 s
+MPU Value : : roll:0.171657, pitch:0.964074, yaw:0.065401
+MPU time  : -541816429
+count : 6
+MPU9250 thread takes : 1.1209 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.164791, pitch:0.954780, yaw:0.150590
+MPU time  : -540936429
+count : 1
+MPU9250 thread takes : 1.17262 s
+MPU Value : : roll:0.128931, pitch:1.004393, yaw:0.173835
+MPU time  : -540916429
+count : 2
+MPU9250 thread takes : 1.17293 s
+MPU Value : : roll:0.123774, pitch:1.052022, yaw:0.196150
+MPU time  : -540896429
+count : 3
+MPU9250 thread takes : 1.17329 s
+MPU Value : : roll:0.177360, pitch:1.097747, yaw:0.305377
+MPU time  : -540876429
+count : 4
+MPU9250 thread takes : 1.17357 s
+MPU Value : : roll:0.199533, pitch:1.083105, yaw:0.322430
+MPU time  : -540856429
+count : 5
+MPU9250 thread takes : 1.17388 s
+MPU Value : : roll:0.220820, pitch:1.069049, yaw:0.368069
+MPU time  : -540836429
+count : 6
+MPU9250 thread takes : 1.17419 s
+MPU Value : : roll:0.211988, pitch:1.055556, yaw:0.382615
+MPU time  : -540816429
+count : 7
+MPU9250 thread takes : 1.17973 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.262045, pitch:1.071870, yaw:0.308774
+MPU time  : -539936429
+count : 1
+MPU9250 thread takes : 1.23133 s
+MPU Value : : roll:0.339368, pitch:1.116800, yaw:0.208618
+MPU time  : -539916429
+count : 2
+MPU9250 thread takes : 1.23173 s
+MPU Value : : roll:0.413598, pitch:1.101396, yaw:0.141737
+MPU time  : -539896429
+count : 3
+MPU9250 thread takes : 1.23201 s
+MPU Value : : roll:0.484859, pitch:1.028072, yaw:0.106799
+MPU time  : -539876429
+count : 4
+MPU9250 thread takes : 1.2323 s
+MPU Value : : roll:-0.061365, pitch:-0.652075, yaw:-1.185278
+MPU time  : -539856429
+count : 5
+MPU9250 thread takes : 1.23258 s
+MPU Value : : roll:-0.029642, pitch:-0.625992, yaw:-1.108599
+MPU time  : -539836429
+count : 6
+MPU9250 thread takes : 1.23287 s
+MPU Value : : roll:-0.057724, pitch:-0.571684, yaw:-1.034986
+MPU time  : -539816429
+count : 7
+MPU9250 thread takes : 1.23846 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.084684, pitch:-0.461012, yaw:-1.022855
+MPU time  : -538936429
+count : 1
+MPU9250 thread takes : 1.29026 s
+MPU Value : : roll:-0.052028, pitch:-0.354766, yaw:-0.981941
+MPU time  : -538916429
+count : 2
+MPU9250 thread takes : 1.29055 s
+MPU Value : : roll:-0.020679, pitch:-0.223503, yaw:-0.942663
+MPU time  : -538896429
+count : 3
+MPU9250 thread takes : 1.29083 s
+MPU Value : : roll:0.038685, pitch:-0.156026, yaw:-0.904957
+MPU time  : -538876429
+count : 4
+MPU9250 thread takes : 1.29113 s
+MPU Value : : roll:0.066406, pitch:-0.120517, yaw:-0.810222
+MPU time  : -538856429
+count : 5
+MPU9250 thread takes : 1.29153 s
+MPU Value : : roll:0.063750, pitch:-0.086428, yaw:-0.660740
+MPU time  : -538836429
+count : 6
+MPU9250 thread takes : 1.29181 s
+MPU Value : : roll:0.090468, pitch:-0.053702, yaw:-0.458701
+MPU time  : -538816429
+count : 7
+MPU9250 thread takes : 1.29735 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.086849, pitch:-0.080823, yaw:-0.294011
+MPU time  : -537936429
+count : 1
+MPU9250 thread takes : 1.34898 s
+MPU Value : : roll:0.112644, pitch:-0.077590, yaw:-0.106641
+MPU time  : -537916429
+count : 2
+MPU9250 thread takes : 1.34927 s
+MPU Value : : roll:0.137406, pitch:-0.103755, yaw:0.014698
+MPU time  : -537896429
+count : 3
+MPU9250 thread takes : 1.34955 s
+MPU Value : : roll:0.102642, pitch:-0.128872, yaw:0.072647
+MPU time  : -537876429
+count : 4
+MPU9250 thread takes : 1.34983 s
+MPU Value : : roll:0.069268, pitch:-0.182254, yaw:0.099009
+MPU time  : -537856429
+count : 5
+MPU9250 thread takes : 1.35015 s
+MPU Value : : roll:0.037228, pitch:-0.204232, yaw:0.124317
+MPU time  : -537836429
+count : 6
+MPU9250 thread takes : 1.35043 s
+MPU Value : : roll:0.094276, pitch:-1.747282, yaw:0.441295
+MPU time  : -537816429
+count : 7
+MPU9250 thread takes : 1.35604 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.178310, pitch:-1.794464, yaw:0.540717
+MPU time  : -536936429
+count : 1
+MPU9250 thread takes : 1.40782 s
+MPU Value : : roll:0.288251, pitch:-1.810491, yaw:0.577625
+MPU time  : -536916429
+count : 2
+MPU9250 thread takes : 1.40811 s
+MPU Value : : roll:0.393794, pitch:-1.825876, yaw:0.583788
+MPU time  : -536896429
+count : 3
+MPU9250 thread takes : 1.40839 s
+MPU Value : : roll:0.436579, pitch:-1.811377, yaw:0.589705
+MPU time  : -536876429
+count : 4
+MPU9250 thread takes : 1.40877 s
+MPU Value : : roll:0.448384, pitch:-1.768190, yaw:0.653921
+MPU time  : -536856429
+count : 5
+MPU9250 thread takes : 1.40905 s
+MPU Value : : roll:0.459717, pitch:-1.697463, yaw:0.774106
+MPU time  : -536836429
+count : 6
+MPU9250 thread takes : 1.40933 s
+MPU Value : : roll:0.441328, pitch:-1.658833, yaw:0.889483
+MPU time  : -536816429
+count : 7
+MPU9250 thread takes : 1.41498 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.394406, pitch:-1.563211, yaw:0.970977
+MPU time  : -535936429
+count : 1
+MPU9250 thread takes : 1.46668 s
+MPU Value : : roll:0.407898, pitch:-1.442146, yaw:1.078480
+MPU time  : -535916429
+count : 2
+MPU9250 thread takes : 1.46697 s
+MPU Value : : roll:0.420851, pitch:-1.325923, yaw:1.152413
+MPU time  : -535896429
+count : 3
+MPU9250 thread takes : 1.46725 s
+MPU Value : : roll:0.433285, pitch:-1.155814, yaw:1.194122
+MPU time  : -535876429
+count : 4
+MPU9250 thread takes : 1.46767 s
+MPU Value : : roll:0.445222, pitch:-0.992508, yaw:1.087820
+MPU time  : -535856429
+count : 5
+MPU9250 thread takes : 1.46794 s
+MPU Value : : roll:0.398145, pitch:-0.835734, yaw:0.956503
+MPU time  : -535836429
+count : 6
+MPU9250 thread takes : 1.46822 s
+MPU Value : : roll:0.382219, pitch:-0.714500, yaw:0.830438
+MPU time  : -535816429
+count : 7
+MPU9250 thread takes : 1.47381 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.337662, pitch:-0.568847, yaw:0.680147
+MPU time  : -534936429
+count : 1
+MPU9250 thread takes : 1.52547 s
+MPU Value : : roll:-0.231942, pitch:2.117322, yaw:-0.429986
+MPU time  : -534916429
+count : 2
+MPU9250 thread takes : 1.52576 s
+MPU Value : : roll:-0.134859, pitch:1.915556, yaw:-0.266445
+MPU time  : -534896429
+count : 3
+MPU9250 thread takes : 1.52604 s
+MPU Value : : roll:-0.041660, pitch:1.780397, yaw:-0.138714
+MPU time  : -534876429
+count : 4
+MPU9250 thread takes : 1.52635 s
+MPU Value : : roll:0.018543, pitch:1.562840, yaw:-0.074629
+MPU time  : -534856429
+count : 5
+MPU9250 thread takes : 1.52663 s
+MPU Value : : roll:0.047069, pitch:1.383253, yaw:-0.013107
+MPU time  : -534836429
+count : 6
+MPU9250 thread takes : 1.52691 s
+MPU Value : : roll:0.015918, pitch:1.210850, yaw:0.016686
+MPU time  : -534816429
+count : 7
+MPU9250 thread takes : 1.53241 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.015282, pitch:0.957538, yaw:0.016018
+MPU time  : -533936429
+count : 1
+MPU9250 thread takes : 1.58412 s
+MPU Value : : roll:0.014670, pitch:0.714358, yaw:0.015377
+MPU time  : -533916429
+count : 2
+MPU9250 thread takes : 1.58446 s
+MPU Value : : roll:0.014083, pitch:0.480906, yaw:0.014762
+MPU time  : -533896429
+count : 3
+MPU9250 thread takes : 1.58474 s
+MPU Value : : roll:-0.015748, pitch:0.227523, yaw:0.101977
+MPU time  : -533876429
+count : 4
+MPU9250 thread takes : 1.58502 s
+MPU Value : : roll:-0.073655, pitch:0.101349, yaw:0.127166
+MPU time  : -533856429
+count : 5
+MPU9250 thread takes : 1.5853 s
+MPU Value : : roll:-0.129245, pitch:-0.019779, yaw:0.122079
+MPU time  : -533836429
+count : 6
+MPU9250 thread takes : 1.58565 s
+MPU Value : : roll:-0.650905, pitch:-0.604353, yaw:-0.819389
+MPU time  : -533736429
+count : 7
+MPU9250 thread takes : 1.59116 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.507795, pitch:-0.667984, yaw:-0.698809
+MPU time  : -532856429
+count : 1
+MPU9250 thread takes : 1.64284 s
+MPU Value : : roll:-0.370410, pitch:-0.670533, yaw:-0.553783
+MPU time  : -532836429
+count : 2
+MPU9250 thread takes : 1.64313 s
+MPU Value : : roll:-0.267789, pitch:-0.614443, yaw:-0.443827
+MPU time  : -532816429
+count : 3
+MPU9250 thread takes : 1.64344 s
+MPU Value : : roll:-0.169273, pitch:-0.560597, yaw:-0.396806
+MPU time  : -532796429
+count : 4
+MPU9250 thread takes : 1.64372 s
+MPU Value : : roll:-0.103965, pitch:-0.450369, yaw:-0.263860
+MPU time  : -532776429
+count : 5
+MPU9250 thread takes : 1.64403 s
+MPU Value : : roll:-0.099807, pitch:-0.344549, yaw:-0.136233
+MPU time  : -532756429
+count : 6
+MPU9250 thread takes : 1.64434 s
+MPU Value : : roll:-1.208009, pitch:1.659477, yaw:-0.130783
+MPU time  : -532556429
+count : 7
+MPU9250 thread takes : 1.64999 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-1.188957, pitch:1.563829, yaw:-0.213357
+MPU time  : -531676429
+count : 1
+MPU9250 thread takes : 1.70183 s
+MPU Value : : roll:-1.141399, pitch:1.442740, yaw:-0.263359
+MPU time  : -531656429
+count : 2
+MPU9250 thread takes : 1.70223 s
+MPU Value : : roll:-1.037206, pitch:1.414298, yaw:-0.311361
+MPU time  : -531636429
+count : 3
+MPU9250 thread takes : 1.70254 s
+MPU Value : : roll:-0.907913, pitch:1.445531, yaw:-0.328175
+MPU time  : -531616429
+count : 4
+MPU9250 thread takes : 1.70284 s
+MPU Value : : roll:-0.754524, pitch:1.446247, yaw:-0.285780
+MPU time  : -531596429
+count : 5
+MPU9250 thread takes : 1.70321 s
+MPU Value : : roll:-0.578001, pitch:1.446934, yaw:-0.098739
+MPU time  : -531576429
+count : 6
+MPU9250 thread takes : 1.70362 s
+MPU Value : : roll:0.147558, pitch:-3.352407, yaw:0.227162
+MPU time  : -531376429
+count : 7
+MPU9250 thread takes : 1.70922 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.112387, pitch:-3.130505, yaw:0.247344
+MPU time  : -530496429
+count : 1
+MPU9250 thread takes : 1.76106 s
+MPU Value : : roll:0.078623, pitch:-2.946749, yaw:0.208182
+MPU time  : -530476429
+count : 2
+MPU9250 thread takes : 1.76138 s
+MPU Value : : roll:0.016942, pitch:-2.799611, yaw:0.199854
+MPU time  : -530456429
+count : 3
+MPU9250 thread takes : 1.76168 s
+MPU Value : : roll:-0.042272, pitch:-2.629090, yaw:0.162592
+MPU time  : -530436429
+count : 4
+MPU9250 thread takes : 1.76207 s
+MPU Value : : roll:-0.069850, pitch:-2.465389, yaw:0.068283
+MPU time  : -530416429
+count : 5
+MPU9250 thread takes : 1.76238 s
+MPU Value : : roll:-0.271934, pitch:1.496641, yaw:-0.549082
+MPU time  : -530196429
+count : 6
+MPU9250 thread takes : 1.76814 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.173252, pitch:1.436775, yaw:-0.468582
+MPU time  : -529316429
+count : 1
+MPU9250 thread takes : 1.81999 s
+MPU Value : : roll:-0.019980, pitch:1.320767, yaw:-0.332766
+MPU time  : -529296429
+count : 2
+MPU9250 thread takes : 1.8203 s
+MPU Value : : roll:0.127161, pitch:1.209400, yaw:-0.260919
+MPU time  : -529276429
+count : 3
+MPU9250 thread takes : 1.82061 s
+MPU Value : : roll:0.268416, pitch:1.161024, yaw:-0.104140
+MPU time  : -529256429
+count : 4
+MPU9250 thread takes : 1.82091 s
+MPU Value : : roll:0.433289, pitch:1.056046, yaw:0.017098
+MPU time  : -529236429
+count : 5
+MPU9250 thread takes : 1.82122 s
+MPU Value : : roll:0.533030, pitch:0.984536, yaw:0.016414
+MPU time  : -529216429
+count : 6
+MPU9250 thread takes : 1.82152 s
+MPU Value : : roll:-0.044389, pitch:2.057350, yaw:0.074294
+MPU time  : -529016429
+count : 7
+MPU9250 thread takes : 1.82716 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.015924, pitch:1.975056, yaw:0.071323
+MPU time  : -528136429
+count : 1
+MPU9250 thread takes : 1.87905 s
+MPU Value : : roll:-0.013982, pitch:1.778980, yaw:0.068470
+MPU time  : -528116429
+count : 2
+MPU9250 thread takes : 1.87936 s
+MPU Value : : roll:-0.042691, pitch:1.532211, yaw:0.182804
+MPU time  : -528096429
+count : 3
+MPU9250 thread takes : 1.87986 s
+MPU Value : : roll:-0.128788, pitch:1.383118, yaw:0.292565
+MPU time  : -528076429
+count : 4
+MPU9250 thread takes : 1.88016 s
+MPU Value : : roll:-0.240710, pitch:1.181452, yaw:0.368667
+MPU time  : -528056429
+count : 5
+MPU9250 thread takes : 1.88046 s
+MPU Value : : roll:-0.318886, pitch:1.017121, yaw:0.353921
+MPU time  : -528036429
+count : 6
+MPU9250 thread takes : 1.88083 s
+MPU Value : : roll:-0.335399, pitch:-1.218686, yaw:-0.684626
+MPU time  : -527836429
+count : 7
+MPU9250 thread takes : 1.88639 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.234178, pitch:-1.169938, yaw:-0.715778
+MPU time  : -526956429
+count : 1
+MPU9250 thread takes : 1.93813 s
+MPU Value : : roll:-0.166274, pitch:-1.035336, yaw:-0.774952
+MPU time  : -526936429
+count : 2
+MPU9250 thread takes : 1.93844 s
+MPU Value : : roll:-0.130355, pitch:-0.935386, yaw:-0.802490
+MPU time  : -526916429
+count : 3
+MPU9250 thread takes : 1.93881 s
+MPU Value : : roll:-0.095872, pitch:-0.780898, yaw:-0.711854
+MPU time  : -526896429
+count : 4
+MPU9250 thread takes : 1.93911 s
+MPU Value : : roll:-0.033501, pitch:-0.661857, yaw:-0.595575
+MPU time  : -526876429
+count : 5
+MPU9250 thread takes : 1.93945 s
+MPU Value : : roll:-0.061429, pitch:-0.020748, yaw:-0.454679
+MPU time  : -526656429
+count : 6
+MPU9250 thread takes : 1.94524 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.029704, pitch:0.126423, yaw:-0.348687
+MPU time  : -525776429
+count : 1
+MPU9250 thread takes : 1.9971 s
+MPU Value : : roll:-0.057784, pitch:0.267707, yaw:-0.305471
+MPU time  : -525756429
+count : 2
+MPU9250 thread takes : 1.99743 s
+MPU Value : : roll:-0.084741, pitch:0.344804, yaw:-0.176179
+MPU time  : -525736429
+count : 3
+MPU9250 thread takes : 1.9978 s
+MPU Value : : roll:-0.169156, pitch:0.331011, yaw:-0.022790
+MPU time  : -525716429
+count : 4
+MPU9250 thread takes : 1.9981 s
+MPU Value : : roll:-0.220926, pitch:0.376308, yaw:0.036658
+MPU time  : -525696429
+count : 5
+MPU9250 thread takes : 1.99841 s
+MPU Value : : roll:-0.212089, pitch:0.331987, yaw:0.064460
+MPU time  : -525676429
+count : 6
+MPU9250 thread takes : 1.99871 s
+MPU Value : : roll:-0.174337, pitch:-0.852024, yaw:-0.464948
+MPU time  : -525476429
+count : 7
+MPU9250 thread takes : 2.00428 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.196632, pitch:-0.759406, yaw:-0.592691
+MPU time  : -524596429
+count : 1
+MPU9250 thread takes : 2.05611 s
+MPU Value : : roll:-0.247304, pitch:-0.699762, yaw:-0.715325
+MPU time  : -524576429
+count : 2
+MPU9250 thread takes : 2.05641 s
+MPU Value : : roll:-0.237412, pitch:-0.671771, yaw:-0.862322
+MPU time  : -524556429
+count : 3
+MPU9250 thread takes : 2.05675 s
+MPU Value : : roll:-0.227915, pitch:-0.644900, yaw:-0.944902
+MPU time  : -524536429
+count : 4
+MPU9250 thread takes : 2.05705 s
+MPU Value : : roll:-0.218798, pitch:-0.619105, yaw:-0.965643
+MPU time  : -524516429
+count : 5
+MPU9250 thread takes : 2.05735 s
+MPU Value : : roll:-0.180778, pitch:-0.565072, yaw:-1.014822
+MPU time  : -524496429
+count : 6
+MPU9250 thread takes : 2.05771 s
+MPU Value : : roll:0.089868, pitch:0.511189, yaw:0.079430
+MPU time  : -524296429
+count : 7
+MPU9250 thread takes : 2.06332 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.027736, pitch:0.432205, yaw:-0.011553
+MPU time  : -523416429
+count : 1
+MPU9250 thread takes : 2.1152 s
+MPU Value : : roll:-0.002641, pitch:0.414917, yaw:-0.128164
+MPU time  : -523396429
+count : 2
+MPU9250 thread takes : 2.11562 s
+MPU Value : : roll:-0.031804, pitch:0.369052, yaw:-0.210842
+MPU time  : -523376429
+count : 3
+MPU9250 thread takes : 2.11593 s
+MPU Value : : roll:-0.059800, pitch:0.383558, yaw:-0.173140
+MPU time  : -523356429
+count : 4
+MPU9250 thread takes : 2.11623 s
+MPU Value : : roll:-0.115945, pitch:0.456021, yaw:-0.107678
+MPU time  : -523336429
+count : 5
+MPU9250 thread takes : 2.11659 s
+MPU Value : : roll:-0.140575, pitch:0.467048, yaw:-0.074102
+MPU time  : -523316429
+count : 6
+MPU9250 thread takes : 2.11689 s
+MPU Value : : roll:0.128462, pitch:0.565439, yaw:0.806910
+MPU time  : -523116429
+count : 7
+MPU9250 thread takes : 2.1225 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.181860, pitch:0.630626, yaw:0.774634
+MPU time  : -522236429
+count : 1
+MPU9250 thread takes : 2.17444 s
+MPU Value : : roll:0.262391, pitch:0.634670, yaw:0.743649
+MPU time  : -522216429
+count : 2
+MPU9250 thread takes : 2.17476 s
+MPU Value : : roll:0.398237, pitch:0.609283, yaw:0.713903
+MPU time  : -522196429
+count : 3
+MPU9250 thread takes : 2.17506 s
+MPU Value : : roll:0.470112, pitch:0.497106, yaw:0.743883
+MPU time  : -522176429
+count : 4
+MPU9250 thread takes : 2.17537 s
+MPU Value : : roll:0.539112, pitch:0.360149, yaw:0.772664
+MPU time  : -522156429
+count : 5
+MPU9250 thread takes : 2.17579 s
+MPU Value : : roll:0.137060, pitch:-0.795721, yaw:0.185660
+MPU time  : -521936429
+count : 6
+MPU9250 thread takes : 2.18138 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.219383, pitch:-0.734624, yaw:0.178234
+MPU time  : -521056429
+count : 1
+MPU9250 thread takes : 2.2332 s
+MPU Value : : roll:0.269144, pitch:-0.675970, yaw:0.200373
+MPU time  : -521036429
+count : 2
+MPU9250 thread takes : 2.23352 s
+MPU Value : : roll:0.316915, pitch:-0.678200, yaw:0.192358
+MPU time  : -521016429
+count : 3
+MPU9250 thread takes : 2.23388 s
+MPU Value : : roll:0.333506, pitch:-0.680340, yaw:0.155395
+MPU time  : -520996429
+count : 4
+MPU9250 thread takes : 2.23426 s
+MPU Value : : roll:0.320166, pitch:-0.682395, yaw:0.178448
+MPU time  : -520976429
+count : 5
+MPU9250 thread takes : 2.23456 s
+MPU Value : : roll:0.161018, pitch:-1.064855, yaw:-0.443324
+MPU time  : -520756429
+count : 6
+MPU9250 thread takes : 2.24018 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.271651, pitch:-0.934456, yaw:-0.425591
+MPU time  : -519876429
+count : 1
+MPU9250 thread takes : 2.29217 s
+MPU Value : : roll:0.348589, pitch:-0.809273, yaw:-0.437836
+MPU time  : -519856429
+count : 2
+MPU9250 thread takes : 2.29251 s
+MPU Value : : roll:0.393182, pitch:-0.659829, yaw:-0.391054
+MPU time  : -519836429
+count : 3
+MPU9250 thread takes : 2.29282 s
+MPU Value : : roll:0.494528, pitch:-0.516363, yaw:-0.287607
+MPU time  : -519816429
+count : 4
+MPU9250 thread takes : 2.29317 s
+MPU Value : : roll:0.591820, pitch:-0.378635, yaw:-0.129761
+MPU time  : -519796429
+count : 5
+MPU9250 thread takes : 2.29347 s
+MPU Value : : roll:0.655952, pitch:-0.275685, yaw:0.021771
+MPU time  : -519776429
+count : 6
+MPU9250 thread takes : 2.29482 s
+MPU Value : : roll:0.564376, pitch:0.943639, yaw:0.387547
+MPU time  : -519576429
+count : 7
+MPU9250 thread takes : 2.30063 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.533781, pitch:1.004413, yaw:0.417951
+MPU time  : -518696429
+count : 1
+MPU9250 thread takes : 2.35239 s
+MPU Value : : roll:0.472711, pitch:1.095658, yaw:0.478831
+MPU time  : -518676429
+count : 2
+MPU9250 thread takes : 2.3527 s
+MPU Value : : roll:0.472617, pitch:1.217366, yaw:0.448253
+MPU time  : -518656429
+count : 3
+MPU9250 thread takes : 2.35308 s
+MPU Value : : roll:0.472522, pitch:1.369530, yaw:0.326237
+MPU time  : -518636429
+count : 4
+MPU9250 thread takes : 2.35338 s
+MPU Value : : roll:0.472428, pitch:1.460702, yaw:0.173763
+MPU time  : -518616429
+count : 5
+MPU9250 thread takes : 2.35368 s
+MPU Value : : roll:0.502815, pitch:1.612818, yaw:0.082283
+MPU time  : -518596429
+count : 6
+MPU9250 thread takes : 2.35407 s
+MPU Value : : roll:-0.381255, pitch:-0.185925, yaw:-0.283514
+MPU time  : -518396429
+count : 7
+MPU9250 thread takes : 2.35967 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.289734, pitch:-0.216370, yaw:-0.344421
+MPU time  : -517516429
+count : 1
+MPU9250 thread takes : 2.41137 s
+MPU Value : : roll:-0.167749, pitch:-0.307772, yaw:-0.435797
+MPU time  : -517496429
+count : 2
+MPU9250 thread takes : 2.41187 s
+MPU Value : : roll:-0.045789, pitch:-0.399155, yaw:-0.496673
+MPU time  : -517476429
+count : 3
+MPU9250 thread takes : 2.41218 s
+MPU Value : : roll:0.076147, pitch:-0.460039, yaw:-0.527055
+MPU time  : -517456429
+count : 4
+MPU9250 thread takes : 2.41248 s
+MPU Value : : roll:0.137095, pitch:-0.520910, yaw:-0.526950
+MPU time  : -517436429
+count : 5
+MPU9250 thread takes : 2.41278 s
+MPU Value : : roll:0.380922, pitch:-1.526702, yaw:0.448570
+MPU time  : -517216429
+count : 6
+MPU9250 thread takes : 2.41844 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.563736, pitch:-1.404470, yaw:0.448480
+MPU time  : -516336429
+count : 1
+MPU9250 thread takes : 2.47018 s
+MPU Value : : roll:0.685550, pitch:-1.282263, yaw:0.417909
+MPU time  : -516316429
+count : 2
+MPU9250 thread takes : 2.47048 s
+MPU Value : : roll:0.776858, pitch:-1.160079, yaw:0.326380
+MPU time  : -516296429
+count : 3
+MPU9250 thread takes : 2.47086 s
+MPU Value : : roll:0.868148, pitch:-1.037921, yaw:0.265351
+MPU time  : -516276429
+count : 4
+MPU9250 thread takes : 2.47116 s
+MPU Value : : roll:0.898456, pitch:-0.885304, yaw:0.143372
+MPU time  : -516256429
+count : 5
+MPU9250 thread takes : 2.47146 s
+MPU Value : : roll:-0.686773, pitch:-0.275493, yaw:0.112861
+MPU time  : -516036429
+count : 6
+MPU9250 thread takes : 2.4772 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.686636, pitch:-0.336401, yaw:0.234765
+MPU time  : -515156429
+count : 1
+MPU9250 thread takes : 2.52893 s
+MPU Value : : roll:-0.716980, pitch:-0.427779, yaw:0.356645
+MPU time  : -515136429
+count : 2
+MPU9250 thread takes : 2.5307 s
+MPU Value : : roll:0.350023, pitch:0.364831, yaw:-0.070170
+MPU time  : -514856429
+count : 3
+MPU9250 thread takes : 2.53633 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.380435, pitch:0.578129, yaw:-0.070156
+MPU time  : -513976429
+count : 1
+MPU9250 thread takes : 2.58816 s
+MPU Value : : roll:0.410841, pitch:0.760904, yaw:0.051785
+MPU time  : -513956429
+count : 2
+MPU9250 thread takes : 2.58847 s
+MPU Value : : roll:0.441240, pitch:0.882678, yaw:0.204183
+MPU time  : -513936429
+count : 3
+MPU9250 thread takes : 2.58881 s
+MPU Value : : roll:0.410670, pitch:0.943465, yaw:0.295587
+MPU time  : -513916429
+count : 4
+MPU9250 thread takes : 2.58911 s
+MPU Value : : roll:0.349625, pitch:1.034722, yaw:0.295528
+MPU time  : -513896429
+count : 5
+MPU9250 thread takes : 2.58942 s
+MPU Value : : roll:0.319073, pitch:1.156442, yaw:0.234506
+MPU time  : -513876429
+count : 6
+MPU9250 thread takes : 2.58979 s
+MPU Value : : roll:-0.168698, pitch:0.759948, yaw:0.295422
+MPU time  : -513676429
+count : 7
+MPU9250 thread takes : 2.59536 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.016256, pitch:0.820759, yaw:0.417290
+MPU time  : -512796429
+count : 1
+MPU9250 thread takes : 2.64726 s
+MPU Value : : roll:0.105674, pitch:0.851077, yaw:0.508652
+MPU time  : -512776429
+count : 2
+MPU9250 thread takes : 2.64771 s
+MPU Value : : roll:0.227580, pitch:0.881388, yaw:0.630477
+MPU time  : -512756429
+count : 3
+MPU9250 thread takes : 2.64801 s
+MPU Value : : roll:0.349461, pitch:0.881212, yaw:0.752277
+MPU time  : -512736429
+count : 4
+MPU9250 thread takes : 2.64832 s
+MPU Value : : roll:0.440836, pitch:0.820072, yaw:0.721645
+MPU time  : -512716429
+count : 5
+MPU9250 thread takes : 2.64866 s
+MPU Value : : roll:0.349303, pitch:-1.649109, yaw:-0.467286
+MPU time  : -512496429
+count : 6
+MPU9250 thread takes : 2.65424 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.410197, pitch:-1.709743, yaw:-0.436710
+MPU time  : -511616429
+count : 1
+MPU9250 thread takes : 2.706 s
+MPU Value : : roll:0.471078, pitch:-1.800846, yaw:-0.406141
+MPU time  : -511596429
+count : 2
+MPU9250 thread takes : 2.70639 s
+MPU Value : : roll:0.501466, pitch:-1.830968, yaw:-0.375578
+MPU time  : -511576429
+count : 3
+MPU9250 thread takes : 2.70667 s
+MPU Value : : roll:0.470883, pitch:-1.861084, yaw:-0.284058
+MPU time  : -511556429
+count : 4
+MPU9250 thread takes : 2.70695 s
+MPU Value : : roll:0.409826, pitch:-1.921675, yaw:-0.223038
+MPU time  : -511536429
+count : 5
+MPU9250 thread takes : 2.70723 s
+MPU Value : : roll:0.348781, pitch:-1.982254, yaw:-0.162030
+MPU time  : -511516429
+count : 6
+MPU9250 thread takes : 2.70758 s
+MPU Value : : roll:-0.352368, pitch:0.731015, yaw:-0.253443
+MPU time  : -511316429
+count : 7
+MPU9250 thread takes : 2.71312 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.443743, pitch:0.700387, yaw:-0.344837
+MPU time  : -510436429
+count : 1
+MPU9250 thread takes : 2.7647 s
+MPU Value : : roll:-0.504618, pitch:0.669765, yaw:-0.405731
+MPU time  : -510416429
+count : 2
+MPU9250 thread takes : 2.76499 s
+MPU Value : : roll:-0.534998, pitch:0.608668, yaw:-0.466614
+MPU time  : -510396429
+count : 3
+MPU9250 thread takes : 2.76529 s
+MPU Value : : roll:-0.534891, pitch:0.578064, yaw:-0.527484
+MPU time  : -510376429
+count : 4
+MPU9250 thread takes : 2.76557 s
+MPU Value : : roll:-0.473821, pitch:0.577948, yaw:-0.679787
+MPU time  : -510356429
+count : 5
+MPU9250 thread takes : 2.76587 s
+MPU Value : : roll:-0.351800, pitch:0.608315, yaw:-0.832060
+MPU time  : -510336429
+count : 6
+MPU9250 thread takes : 2.76625 s
+MPU Value : : roll:-0.504138, pitch:-0.519631, yaw:0.021595
+MPU time  : -510136429
+count : 7
+MPU9250 thread takes : 2.77175 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.443074, pitch:-0.489045, yaw:-0.100336
+MPU time  : -509256429
+count : 1
+MPU9250 thread takes : 2.82346 s
+MPU Value : : roll:-0.351540, pitch:-0.488947, yaw:-0.252725
+MPU time  : -509236429
+count : 2
+MPU9250 thread takes : 2.8239 s
+MPU Value : : roll:-0.260024, pitch:-0.549812, yaw:-0.313638
+MPU time  : -509216429
+count : 3
+MPU9250 thread takes : 2.82424 s
+MPU Value : : roll:-0.138045, pitch:-0.519221, yaw:-0.374538
+MPU time  : -509196429
+count : 4
+MPU9250 thread takes : 2.82455 s
+MPU Value : : roll:-0.077054, pitch:-0.519117, yaw:-0.404945
+MPU time  : -509176429
+count : 5
+MPU9250 thread takes : 2.82483 s
+MPU Value : : roll:-1.204862, pitch:0.212547, yaw:-0.526791
+MPU time  : -508956429
+count : 6
+MPU9250 thread takes : 2.83046 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-1.174140, pitch:0.334432, yaw:-0.526686
+MPU time  : -508076429
+count : 1
+MPU9250 thread takes : 2.88225 s
+MPU Value : : roll:-1.143423, pitch:0.425810, yaw:-0.587544
+MPU time  : -508056429
+count : 2
+MPU9250 thread takes : 2.88259 s
+MPU Value : : roll:-1.082231, pitch:0.517170, yaw:-0.709353
+MPU time  : -508036429
+count : 3
+MPU9250 thread takes : 2.88289 s
+MPU Value : : roll:-1.021051, pitch:0.578030, yaw:-0.831138
+MPU time  : -508016429
+count : 4
+MPU9250 thread takes : 2.88326 s
+MPU Value : : roll:-0.898920, pitch:0.669359, yaw:-0.891935
+MPU time  : -507996429
+count : 5
+MPU9250 thread takes : 2.88369 s
+MPU Value : : roll:-1.447701, pitch:3.291310, yaw:-0.221204
+MPU time  : -507776429
+count : 6
+MPU9250 thread takes : 2.88934 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-1.508374, pitch:3.290652, yaw:-0.251641
+MPU time  : -506896429
+count : 1
+MPU9250 thread takes : 2.9412 s
+MPU Value : : roll:-1.508073, pitch:3.320475, yaw:-0.282072
+MPU time  : -506876429
+count : 2
+MPU9250 thread takes : 2.94151 s
+MPU Value : : roll:-1.477289, pitch:3.350293, yaw:-0.312498
+MPU time  : -506856429
+count : 3
+MPU9250 thread takes : 2.94182 s
+MPU Value : : roll:-1.446512, pitch:3.349623, yaw:-0.342917
+MPU time  : -506836429
+count : 4
+MPU9250 thread takes : 2.9422 s
+MPU Value : : roll:-1.415741, pitch:3.379434, yaw:-0.312367
+MPU time  : -506816429
+count : 5
+MPU9250 thread takes : 2.94251 s
+MPU Value : : roll:-1.445940, pitch:3.409240, yaw:-0.281822
+MPU time  : -506796429
+count : 6
+MPU9250 thread takes : 2.94281 s
+MPU Value : : roll:-1.049388, pitch:-1.255143, yaw:1.364246
+MPU time  : -506596429
+count : 7
+MPU9250 thread takes : 2.94849 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-1.018697, pitch:-1.407301, yaw:1.303010
+MPU time  : -505716429
+count : 1
+MPU9250 thread takes : 3.00027 s
+MPU Value : : roll:-1.048975, pitch:-1.498465, yaw:1.272267
+MPU time  : -505696429
+count : 2
+MPU9250 thread takes : 3.00059 s
+MPU Value : : roll:-1.048765, pitch:-1.559128, yaw:1.211050
+MPU time  : -505676429
+count : 3
+MPU9250 thread takes : 3.0009 s
+MPU Value : : roll:-1.018074, pitch:-1.619779, yaw:1.119362
+MPU time  : -505656429
+count : 4
+MPU9250 thread takes : 3.0012 s
+MPU Value : : roll:-1.048352, pitch:-1.680419, yaw:1.058175
+MPU time  : -505636429
+count : 5
+MPU9250 thread takes : 3.00151 s
+MPU Value : : roll:-1.048142, pitch:-1.680083, yaw:0.936037
+MPU time  : -505616429
+count : 6
+MPU9250 thread takes : 3.0019 s
+MPU Value : : roll:-0.194445, pitch:-1.496857, yaw:0.112843
+MPU time  : -505416429
+count : 7
+MPU9250 thread takes : 3.00748 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.163924, pitch:-1.466076, yaw:0.234747
+MPU time  : -504536429
+count : 1
+MPU9250 thread takes : 3.05932 s
+MPU Value : : roll:-0.163891, pitch:-1.435301, yaw:0.326146
+MPU time  : -504516429
+count : 2
+MPU9250 thread takes : 3.05978 s
+MPU Value : : roll:-0.194340, pitch:-1.435014, yaw:0.478489
+MPU time  : -504496429
+count : 3
+MPU9250 thread takes : 3.06008 s
+MPU Value : : roll:-0.255265, pitch:-1.465209, yaw:0.630802
+MPU time  : -504476429
+count : 4
+MPU9250 thread takes : 3.06039 s
+MPU Value : : roll:-0.285696, pitch:-1.495397, yaw:0.752602
+MPU time  : -504456429
+count : 5
+MPU9250 thread takes : 3.06075 s
+MPU Value : : roll:-0.316120, pitch:-1.434135, yaw:0.874379
+MPU time  : -504436429
+count : 6
+MPU9250 thread takes : 3.06106 s
+MPU Value : : roll:-0.407502, pitch:0.974207, yaw:0.081680
+MPU time  : -504236429
+count : 7
+MPU9250 thread takes : 3.06683 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.407420, pitch:1.004494, yaw:0.234072
+MPU time  : -503356429
+count : 1
+MPU9250 thread takes : 3.1189 s
+MPU Value : : roll:-0.407339, pitch:1.004292, yaw:0.355952
+MPU time  : -503336429
+count : 2
+MPU9250 thread takes : 3.11924 s
+MPU Value : : roll:-0.468221, pitch:0.973610, yaw:0.447326
+MPU time  : -503316429
+count : 3
+MPU9250 thread takes : 3.11975 s
+MPU Value : : roll:-0.498609, pitch:0.942933, yaw:0.508200
+MPU time  : -503296429
+count : 4
+MPU9250 thread takes : 3.12007 s
+MPU Value : : roll:-0.498509, pitch:0.881781, yaw:0.538580
+MPU time  : -503276429
+count : 5
+MPU9250 thread takes : 3.12045 s
+MPU Value : : roll:-0.285037, pitch:3.411587, yaw:0.660399
+MPU time  : -503056429
+count : 6
+MPU9250 thread takes : 3.12623 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.254499, pitch:3.288977, yaw:0.385931
+MPU time  : -502176429
+count : 1
+MPU9250 thread takes : 3.17804 s
+MPU Value : : roll:-0.223966, pitch:3.166393, yaw:0.142000
+MPU time  : -502156429
+count : 2
+MPU9250 thread takes : 3.17835 s
+MPU Value : : roll:-0.223921, pitch:3.074314, yaw:-0.010436
+MPU time  : -502136429
+count : 3
+MPU9250 thread takes : 3.1787 s
+MPU Value : : roll:-0.223876, pitch:3.043218, yaw:-0.071398
+MPU time  : -502116429
+count : 4
+MPU9250 thread takes : 3.17898 s
+MPU Value : : roll:-0.284795, pitch:3.103573, yaw:-0.071384
+MPU time  : -502096429
+count : 5
+MPU9250 thread takes : 3.17926 s
+MPU Value : : roll:-0.376183, pitch:3.194397, yaw:-0.071369
+MPU time  : -502076429
+count : 6
+MPU9250 thread takes : 3.17968 s
+MPU Value : : roll:-1.138151, pitch:-0.250675, yaw:0.568761
+MPU time  : -501876429
+count : 7
+MPU9250 thread takes : 3.18527 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-1.168405, pitch:-0.006771, yaw:0.507684
+MPU time  : -500996429
+count : 1
+MPU9250 thread takes : 3.23704 s
+MPU Value : : roll:-1.198653, pitch:0.237084, yaw:0.416137
+MPU time  : -500976429
+count : 2
+MPU9250 thread takes : 3.23742 s
+MPU Value : : roll:-1.167931, pitch:0.541853, yaw:0.355090
+MPU time  : -500956429
+count : 3
+MPU9250 thread takes : 3.23777 s
+MPU Value : : roll:-1.198180, pitch:0.816081, yaw:0.294056
+MPU time  : -500936429
+count : 4
+MPU9250 thread takes : 3.23813 s
+MPU Value : : roll:-1.228422, pitch:1.029289, yaw:0.233034
+MPU time  : -500916429
+count : 5
+MPU9250 thread takes : 3.23845 s
+MPU Value : : roll:0.356873, pitch:-2.323904, yaw:-0.254720
+MPU time  : -500696429
+count : 6
+MPU9250 thread takes : 3.24416 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.173911, pitch:-2.353921, yaw:-0.224187
+MPU time  : -499816429
+count : 1
+MPU9250 thread takes : 3.2961 s
+MPU Value : : roll:0.021468, pitch:-2.292487, yaw:-0.132698
+MPU time  : -499796429
+count : 2
+MPU9250 thread takes : 3.29658 s
+MPU Value : : roll:-0.100463, pitch:-2.231065, yaw:-0.071708
+MPU time  : -499776429
+count : 3
+MPU9250 thread takes : 3.29688 s
+MPU Value : : roll:-0.191888, pitch:-2.139174, yaw:0.019752
+MPU time  : -499756429
+count : 4
+MPU9250 thread takes : 3.29719 s
+MPU Value : : roll:-0.283295, pitch:-2.016820, yaw:0.080711
+MPU time  : -499736429
+count : 5
+MPU9250 thread takes : 3.2975 s
+MPU Value : : roll:-0.344202, pitch:1.397535, yaw:0.385512
+MPU time  : -499516429
+count : 6
+MPU9250 thread takes : 3.30325 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.344133, pitch:1.244847, yaw:0.446399
+MPU time  : -498636429
+count : 1
+MPU9250 thread takes : 3.35536 s
+MPU Value : : roll:-0.344064, pitch:1.122671, yaw:0.537754
+MPU time  : -498616429
+count : 2
+MPU9250 thread takes : 3.35576 s
+MPU Value : : roll:-0.374477, pitch:0.970038, yaw:0.629092
+MPU time  : -498596429
+count : 3
+MPU9250 thread takes : 3.35605 s
+MPU Value : : roll:-0.343920, pitch:0.817436, yaw:0.628966
+MPU time  : -498576429
+count : 4
+MPU9250 thread takes : 3.35637 s
+MPU Value : : roll:-0.343851, pitch:0.664863, yaw:0.567877
+MPU time  : -498556429
+count : 5
+MPU9250 thread takes : 3.35665 s
+MPU Value : : roll:-0.343783, pitch:0.512322, yaw:0.506800
+MPU time  : -498536429
+count : 6
+MPU9250 thread takes : 3.35693 s
+MPU Value : : roll:-0.099860, pitch:2.402085, yaw:-0.743051
+MPU time  : -498336429
+count : 7
+MPU9250 thread takes : 3.36261 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.008395, pitch:2.340641, yaw:-0.651458
+MPU time  : -497456429
+count : 1
+MPU9250 thread takes : 3.4145 s
+MPU Value : : roll:0.083052, pitch:2.279210, yaw:-0.468437
+MPU time  : -497436429
+count : 2
+MPU9250 thread takes : 3.41486 s
+MPU Value : : roll:0.174480, pitch:2.248272, yaw:-0.285453
+MPU time  : -497416429
+count : 3
+MPU9250 thread takes : 3.41522 s
+MPU Value : : roll:0.174445, pitch:2.278304, yaw:-0.072024
+MPU time  : -497396429
+count : 4
+MPU9250 thread takes : 3.41553 s
+MPU Value : : roll:0.174410, pitch:2.247367, yaw:0.171844
+MPU time  : -497376429
+count : 5
+MPU9250 thread takes : 3.41591 s
+MPU Value : : roll:-0.130442, pitch:-1.258479, yaw:-0.315898
+MPU time  : -497156429
+count : 6
+MPU9250 thread takes : 3.42161 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.099934, pitch:-1.166782, yaw:-0.498725
+MPU time  : -496276429
+count : 1
+MPU9250 thread takes : 3.4735 s
+MPU Value : : roll:-0.130396, pitch:-1.136067, yaw:-0.559588
+MPU time  : -496256429
+count : 2
+MPU9250 thread takes : 3.47382 s
+MPU Value : : roll:-0.130370, pitch:-1.105358, yaw:-0.528995
+MPU time  : -496236429
+count : 3
+MPU9250 thread takes : 3.47421 s
+MPU Value : : roll:-0.130343, pitch:-1.135619, yaw:-0.437444
+MPU time  : -496216429
+count : 4
+MPU9250 thread takes : 3.4745 s
+MPU Value : : roll:-0.191281, pitch:-1.196355, yaw:-0.315430
+MPU time  : -496196429
+count : 5
+MPU9250 thread takes : 3.47478 s
+MPU Value : : roll:-0.221724, pitch:-1.287561, yaw:-0.193440
+MPU time  : -496176429
+count : 6
+MPU9250 thread takes : 3.47506 s
+MPU Value : : roll:-1.562875, pitch:-1.957901, yaw:-0.559182
+MPU time  : -495976429
+count : 7
+MPU9250 thread takes : 3.48068 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-1.562562, pitch:-2.048955, yaw:-0.437143
+MPU time  : -495096429
+count : 1
+MPU9250 thread takes : 3.53252 s
+MPU Value : : roll:-1.562250, pitch:-2.079027, yaw:-0.345610
+MPU time  : -495076429
+count : 2
+MPU9250 thread takes : 3.53286 s
+MPU Value : : roll:-1.500974, pitch:-2.048129, yaw:-0.162651
+MPU time  : -495056429
+count : 3
+MPU9250 thread takes : 3.53326 s
+MPU Value : : roll:-1.409229, pitch:-1.986756, yaw:-0.010210
+MPU time  : -495036429
+count : 4
+MPU9250 thread takes : 3.53359 s
+MPU Value : : roll:-1.287020, pitch:-1.925396, yaw:0.050756
+MPU time  : -495016429
+count : 5
+MPU9250 thread takes : 3.53395 s
+MPU Value : : roll:-0.890501, pitch:-1.925011, yaw:0.172672
+MPU time  : -494796429
+count : 6
+MPU9250 thread takes : 3.53962 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.859841, pitch:-1.833181, yaw:0.325046
+MPU time  : -493916429
+count : 1
+MPU9250 thread takes : 3.59141 s
+MPU Value : : roll:-0.768224, pitch:-1.710887, yaw:0.385945
+MPU time  : -493896429
+count : 2
+MPU9250 thread takes : 3.59189 s
+MPU Value : : roll:-0.676625, pitch:-1.527654, yaw:0.355386
+MPU time  : -493876429
+count : 3
+MPU9250 thread takes : 3.59219 s
+MPU Value : : roll:-0.554563, pitch:-1.283495, yaw:0.294351
+MPU time  : -493856429
+count : 4
+MPU9250 thread takes : 3.59249 s
+MPU Value : : roll:-0.463007, pitch:-1.039385, yaw:0.202847
+MPU time  : -493836429
+count : 5
+MPU9250 thread takes : 3.59286 s
+MPU Value : : roll:-0.493396, pitch:-1.313512, yaw:-0.284901
+MPU time  : -493616429
+count : 6
+MPU9250 thread takes : 3.59843 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.584742, pitch:-1.313250, yaw:-0.193399
+MPU time  : -492736429
+count : 1
+MPU9250 thread takes : 3.65028 s
+MPU Value : : roll:-0.676071, pitch:-1.404432, yaw:-0.132396
+MPU time  : -492716429
+count : 2
+MPU9250 thread takes : 3.65069 s
+MPU Value : : roll:-0.767380, pitch:-1.495597, yaw:-0.040925
+MPU time  : -492696429
+count : 3
+MPU9250 thread takes : 3.651 s
+MPU Value : : roll:-0.767227, pitch:-1.586742, yaw:-0.040917
+MPU time  : -492676429
+count : 4
+MPU9250 thread takes : 3.65131 s
+MPU Value : : roll:-0.675629, pitch:-1.708352, yaw:-0.132354
+MPU time  : -492656429
+count : 5
+MPU9250 thread takes : 3.65178 s
+MPU Value : : roll:0.238958, pitch:2.193648, yaw:-0.071364
+MPU time  : -492436429
+count : 6
+MPU9250 thread takes : 3.65738 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.056020, pitch:2.254173, yaw:-0.162794
+MPU time  : -491556429
+count : 1
+MPU9250 thread takes : 3.70921 s
+MPU Value : : roll:-0.096400, pitch:2.253723, yaw:-0.193244
+MPU time  : -491536429
+count : 2
+MPU9250 thread takes : 3.70959 s
+MPU Value : : roll:-0.218307, pitch:2.283753, yaw:-0.223687
+MPU time  : -491516429
+count : 3
+MPU9250 thread takes : 3.70994 s
+MPU Value : : roll:-0.340191, pitch:2.374742, yaw:-0.315087
+MPU time  : -491496429
+count : 4
+MPU9250 thread takes : 3.71023 s
+MPU Value : : roll:-0.431568, pitch:2.465712, yaw:-0.436951
+MPU time  : -491476429
+count : 5
+MPU9250 thread takes : 3.71057 s
+MPU Value : : roll:-1.224006, pitch:-0.186690, yaw:-0.193010
+MPU time  : -491256429
+count : 6
+MPU9250 thread takes : 3.71621 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-1.162798, pitch:-0.247616, yaw:-0.284416
+MPU time  : -490376429
+count : 1
+MPU9250 thread takes : 3.76808 s
+MPU Value : : roll:-1.101602, pitch:-0.278048, yaw:-0.375805
+MPU time  : -490356429
+count : 2
+MPU9250 thread takes : 3.76851 s
+MPU Value : : roll:-1.040418, pitch:-0.217029, yaw:-0.436693
+MPU time  : -490336429
+count : 3
+MPU9250 thread takes : 3.7688 s
+MPU Value : : roll:-1.009728, pitch:-0.156022, yaw:-0.436606
+MPU time  : -490316429
+count : 4
+MPU9250 thread takes : 3.76909 s
+MPU Value : : roll:-0.918081, pitch:-0.064546, yaw:-0.406036
+MPU time  : -490296429
+count : 5
+MPU9250 thread takes : 3.76945 s
+MPU Value : : roll:-0.430190, pitch:-1.039948, yaw:-0.101138
+MPU time  : -490076429
+count : 6
+MPU9250 thread takes : 3.77495 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.369141, pitch:-0.978776, yaw:-0.192563
+MPU time  : -489196429
+count : 1
+MPU9250 thread takes : 3.82676 s
+MPU Value : : roll:-0.338585, pitch:-0.948099, yaw:-0.162043
+MPU time  : -489176429
+count : 2
+MPU9250 thread takes : 3.82708 s
+MPU Value : : roll:-0.277554, pitch:-0.947909, yaw:-0.101047
+MPU time  : -489156429
+count : 3
+MPU9250 thread takes : 3.82744 s
+MPU Value : : roll:-0.216535, pitch:-0.917238, yaw:-0.009582
+MPU time  : -489136429
+count : 4
+MPU9250 thread takes : 3.82779 s
+MPU Value : : roll:-0.216492, pitch:-0.886573, yaw:0.142829
+MPU time  : -489116429
+count : 5
+MPU9250 thread takes : 3.82809 s
+MPU Value : : roll:-0.429820, pitch:3.624897, yaw:0.600026
+MPU time  : -488896429
+count : 6
+MPU9250 thread takes : 3.83381 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.368771, pitch:3.715617, yaw:0.538942
+MPU time  : -488016429
+count : 1
+MPU9250 thread takes : 3.88565 s
+MPU Value : : roll:-0.246770, pitch:3.745356, yaw:0.447389
+MPU time  : -487996429
+count : 2
+MPU9250 thread takes : 3.88596 s
+MPU Value : : roll:-0.094312, pitch:3.714125, yaw:0.386336
+MPU time  : -487976429
+count : 3
+MPU9250 thread takes : 3.8863 s
+MPU Value : : roll:-0.002848, pitch:3.621937, yaw:0.416741
+MPU time  : -487956429
+count : 4
+MPU9250 thread takes : 3.88658 s
+MPU Value : : roll:0.119079, pitch:3.499286, yaw:0.447139
+MPU time  : -487936429
+count : 5
+MPU9250 thread takes : 3.88686 s
+MPU Value : : roll:0.210500, pitch:3.285214, yaw:0.477532
+MPU time  : -487916429
+count : 6
+MPU9250 thread takes : 3.88713 s
+MPU Value : : roll:-0.460139, pitch:1.516618, yaw:1.513814
+MPU time  : -487716429
+count : 7
+MPU9250 thread takes : 3.89273 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.460047, pitch:1.577278, yaw:1.513511
+MPU time  : -486836429
+count : 1
+MPU9250 thread takes : 3.94448 s
+MPU Value : : roll:-0.429474, pitch:1.637926, yaw:1.452245
+MPU time  : -486816429
+count : 2
+MPU9250 thread takes : 3.94478 s
+MPU Value : : roll:-0.459870, pitch:1.637598, yaw:1.421473
+MPU time  : -486796429
+count : 3
+MPU9250 thread takes : 3.94514 s
+MPU Value : : roll:-0.551223, pitch:1.606789, yaw:1.421189
+MPU time  : -486776429
+count : 4
+MPU9250 thread takes : 3.94542 s
+MPU Value : : roll:-0.612076, pitch:1.575986, yaw:1.359941
+MPU time  : -486756429
+count : 5
+MPU9250 thread takes : 3.9457 s
+MPU Value : : roll:-0.642435, pitch:1.514707, yaw:1.237742
+MPU time  : -486736429
+count : 6
+MPU9250 thread takes : 3.94599 s
+MPU Value : : roll:-0.855679, pitch:1.209587, yaw:-0.378036
+MPU time  : -486536429
+count : 7
+MPU9250 thread takes : 3.95163 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.885989, pitch:1.117900, yaw:-0.286515
+MPU time  : -485656429
+count : 1
+MPU9250 thread takes : 4.00343 s
+MPU Value : : roll:-0.885812, pitch:1.056713, yaw:-0.195013
+MPU time  : -485636429
+count : 2
+MPU9250 thread takes : 4.00385 s
+MPU Value : : roll:-0.885635, pitch:1.026020, yaw:-0.103528
+MPU time  : -485616429
+count : 3
+MPU9250 thread takes : 4.00414 s
+MPU Value : : roll:-0.885458, pitch:0.964852, yaw:0.018419
+MPU time  : -485596429
+count : 4
+MPU9250 thread takes : 4.00443 s
+MPU Value : : roll:-0.885281, pitch:0.934177, yaw:0.140342
+MPU time  : -485576429
+count : 5
+MPU9250 thread takes : 4.00471 s
+MPU Value : : roll:-0.885104, pitch:0.842545, yaw:0.170796
+MPU time  : -485556429
+count : 6
+MPU9250 thread takes : 4.00499 s
+MPU Value : : roll:0.273378, pitch:-1.840014, yaw:0.231725
+MPU time  : -485356429
+count : 7
+MPU9250 thread takes : 4.01056 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.334287, pitch:-1.870128, yaw:0.292642
+MPU time  : -484476429
+count : 1
+MPU9250 thread takes : 4.06262 s
+MPU Value : : roll:0.334220, pitch:-1.900236, yaw:0.292584
+MPU time  : -484456429
+count : 2
+MPU9250 thread takes : 4.06308 s
+MPU Value : : roll:0.303672, pitch:-1.930337, yaw:0.292525
+MPU time  : -484436429
+count : 3
+MPU9250 thread takes : 4.06343 s
+MPU Value : : roll:0.242647, pitch:-1.960433, yaw:0.292467
+MPU time  : -484416429
+count : 4
+MPU9250 thread takes : 4.06384 s
+MPU Value : : roll:0.181636, pitch:-2.021004, yaw:0.200963
+MPU time  : -484396429
+count : 5
+MPU9250 thread takes : 4.06414 s
+MPU Value : : roll:0.303526, pitch:-1.746265, yaw:-0.164858
+MPU time  : -484176429
+count : 6
+MPU9250 thread takes : 4.07002 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.303465, pitch:-1.837361, yaw:-0.286751
+MPU time  : -483296429
+count : 1
+MPU9250 thread takes : 4.1219 s
+MPU Value : : roll:0.303405, pitch:-1.897957, yaw:-0.378139
+MPU time  : -483276429
+count : 2
+MPU9250 thread takes : 4.12223 s
+MPU Value : : roll:0.303344, pitch:-1.989022, yaw:-0.378064
+MPU time  : -483256429
+count : 3
+MPU9250 thread takes : 4.12253 s
+MPU Value : : roll:0.242320, pitch:-2.019106, yaw:-0.317025
+MPU time  : -483236429
+count : 4
+MPU9250 thread takes : 4.1229 s
+MPU Value : : roll:0.181308, pitch:-2.140629, yaw:-0.195034
+MPU time  : -483216429
+count : 5
+MPU9250 thread takes : 4.1232 s
+MPU Value : : roll:-0.672216, pitch:2.553981, yaw:0.506084
+MPU time  : -482996429
+count : 6
+MPU9250 thread takes : 4.12892 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.702563, pitch:2.583952, yaw:0.323092
+MPU time  : -482116429
+count : 1
+MPU9250 thread takes : 4.18088 s
+MPU Value : : roll:-0.763386, pitch:2.644399, yaw:0.201101
+MPU time  : -482096429
+count : 2
+MPU9250 thread takes : 4.18122 s
+MPU Value : : roll:-0.885160, pitch:2.704834, yaw:0.170579
+MPU time  : -482076429
+count : 3
+MPU9250 thread takes : 4.18152 s
+MPU Value : : roll:-1.006910, pitch:2.765256, yaw:0.109582
+MPU time  : -482056429
+count : 4
+MPU9250 thread takes : 4.18196 s
+MPU Value : : roll:-1.098154, pitch:2.734222, yaw:0.018114
+MPU time  : -482036429
+count : 5
+MPU9250 thread takes : 4.18226 s
+MPU Value : : roll:-0.122520, pitch:0.051284, yaw:0.688708
+MPU time  : -481816429
+count : 6
+MPU9250 thread takes : 4.18792 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.213940, pitch:0.051274, yaw:0.749534
+MPU time  : -480936429
+count : 1
+MPU9250 thread takes : 4.24022 s
+MPU Value : : roll:-0.305343, pitch:0.020782, yaw:0.779866
+MPU time  : -480916429
+count : 2
+MPU9250 thread takes : 4.24066 s
+MPU Value : : roll:-0.427208, pitch:-0.009704, yaw:0.840673
+MPU time  : -480896429
+count : 3
+MPU9250 thread takes : 4.24097 s
+MPU Value : : roll:-0.518568, pitch:0.020780, yaw:0.901469
+MPU time  : -480876429
+count : 4
+MPU9250 thread takes : 4.24125 s
+MPU Value : : roll:-0.609910, pitch:-0.009706, yaw:0.931770
+MPU time  : -480856429
+count : 5
+MPU9250 thread takes : 4.24161 s
+MPU Value : : roll:-0.701233, pitch:-0.466929, yaw:-0.622983
+MPU time  : -480636429
+count : 6
+MPU9250 thread takes : 4.24713 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.701093, pitch:-0.497318, yaw:-0.561895
+MPU time  : -479756429
+count : 1
+MPU9250 thread takes : 4.29897 s
+MPU Value : : roll:-0.700952, pitch:-0.436255, yaw:-0.470338
+MPU time  : -479736429
+count : 2
+MPU9250 thread takes : 4.29931 s
+MPU Value : : roll:-0.639849, pitch:-0.405686, yaw:-0.378799
+MPU time  : -479716429
+count : 3
+MPU9250 thread takes : 4.29982 s
+MPU Value : : roll:-0.548276, pitch:-0.344642, yaw:-0.256796
+MPU time  : -479696429
+count : 4
+MPU9250 thread takes : 4.30012 s
+MPU Value : : roll:-0.487202, pitch:-0.222646, yaw:-0.195781
+MPU time  : -479676429
+count : 5
+MPU9250 thread takes : 4.30048 s
+MPU Value : : roll:-0.243251, pitch:-0.496937, yaw:0.566300
+MPU time  : -479456429
+count : 6
+MPU9250 thread takes : 4.30608 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.304166, pitch:-0.557801, yaw:0.657632
+MPU time  : -478576429
+count : 1
+MPU9250 thread takes : 4.35789 s
+MPU Value : : roll:-0.273624, pitch:-0.588171, yaw:0.718464
+MPU time  : -478556429
+count : 2
+MPU9250 thread takes : 4.35821 s
+MPU Value : : roll:-0.273569, pitch:-0.618535, yaw:0.748802
+MPU time  : -478536429
+count : 3
+MPU9250 thread takes : 4.35859 s
+MPU Value : : roll:-0.303996, pitch:-0.648893, yaw:0.748652
+MPU time  : -478516429
+count : 4
+MPU9250 thread takes : 4.35889 s
+MPU Value : : roll:-0.303935, pitch:-0.648763, yaw:0.718021
+MPU time  : -478496429
+count : 5
+MPU9250 thread takes : 4.35919 s
+MPU Value : : roll:-0.334356, pitch:-0.648633, yaw:0.656914
+MPU time  : -478476429
+count : 6
+MPU9250 thread takes : 4.35957 s
+MPU Value : : roll:-0.700070, pitch:4.441941, yaw:0.321484
+MPU time  : -478276429
+count : 7
+MPU9250 thread takes : 4.36525 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.608484, pitch:4.562980, yaw:0.290938
+MPU time  : -477396429
+count : 1
+MPU9250 thread takes : 4.41706 s
+MPU Value : : roll:-0.547399, pitch:4.623031, yaw:0.229916
+MPU time  : -477376429
+count : 2
+MPU9250 thread takes : 4.41741 s
+MPU Value : : roll:-0.516808, pitch:4.652588, yaw:0.199389
+MPU time  : -477356429
+count : 3
+MPU9250 thread takes : 4.41772 s
+MPU Value : : roll:-0.577668, pitch:4.682139, yaw:0.168867
+MPU time  : -477336429
+count : 4
+MPU9250 thread takes : 4.41805 s
+MPU Value : : roll:-0.638516, pitch:4.772648, yaw:0.077388
+MPU time  : -477316429
+count : 5
+MPU9250 thread takes : 4.41841 s
+MPU Value : : roll:-0.729833, pitch:4.863138, yaw:0.046891
+MPU time  : -477296429
+count : 6
+MPU9250 thread takes : 4.41871 s
+MPU Value : : roll:-0.882096, pitch:-3.794639, yaw:-0.440826
+MPU time  : -477096429
+count : 7
+MPU9250 thread takes : 4.42435 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.973365, pitch:-3.793880, yaw:-0.349293
+MPU time  : -476216429
+count : 1
+MPU9250 thread takes : 4.47618 s
+MPU Value : : roll:-1.034133, pitch:-3.762639, yaw:-0.227296
+MPU time  : -476196429
+count : 2
+MPU9250 thread takes : 4.4765 s
+MPU Value : : roll:-1.094890, pitch:-3.761886, yaw:-0.135805
+MPU time  : -476176429
+count : 3
+MPU9250 thread takes : 4.4768 s
+MPU Value : : roll:-1.155635, pitch:-3.761134, yaw:-0.074815
+MPU time  : -476156429
+count : 4
+MPU9250 thread takes : 4.47709 s
+MPU Value : : roll:-1.216367, pitch:-3.729901, yaw:0.047127
+MPU time  : -476136429
+count : 5
+MPU9250 thread takes : 4.47745 s
+MPU Value : : roll:-0.179746, pitch:2.245260, yaw:0.656752
+MPU time  : -475916429
+count : 6
+MPU9250 thread takes : 4.48305 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.149228, pitch:2.214329, yaw:0.626139
+MPU time  : -475036429
+count : 1
+MPU9250 thread takes : 4.53492 s
+MPU Value : : roll:-0.027271, pitch:2.183404, yaw:0.534568
+MPU time  : -475016429
+count : 2
+MPU9250 thread takes : 4.5353 s
+MPU Value : : roll:0.064179, pitch:2.061041, yaw:0.382053
+MPU time  : -474996429
+count : 3
+MPU9250 thread takes : 4.5356 s
+MPU Value : : roll:0.125130, pitch:1.969183, yaw:0.290531
+MPU time  : -474976429
+count : 4
+MPU9250 thread takes : 4.536 s
+MPU Value : : roll:0.216550, pitch:1.877344, yaw:0.259992
+MPU time  : -474956429
+count : 5
+MPU9250 thread takes : 4.53631 s
+MPU Value : : roll:0.307952, pitch:1.724560, yaw:0.259940
+MPU time  : -474936429
+count : 6
+MPU9250 thread takes : 4.53661 s
+MPU Value : : roll:-0.789451, pitch:0.352539, yaw:0.016034
+MPU time  : -474736429
+count : 7
+MPU9250 thread takes : 4.54224 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.850257, pitch:0.291505, yaw:0.198921
+MPU time  : -473856429
+count : 1
+MPU9250 thread takes : 4.59403 s
+MPU Value : : roll:-0.880568, pitch:0.291446, yaw:0.229363
+MPU time  : -473836429
+count : 2
+MPU9250 thread takes : 4.59435 s
+MPU Value : : roll:-0.910874, pitch:0.291388, yaw:0.259799
+MPU time  : -473816429
+count : 3
+MPU9250 thread takes : 4.59465 s
+MPU Value : : roll:-0.910692, pitch:0.321811, yaw:0.351192
+MPU time  : -473796429
+count : 4
+MPU9250 thread takes : 4.59502 s
+MPU Value : : roll:-0.880028, pitch:0.382710, yaw:0.412085
+MPU time  : -473776429
+count : 5
+MPU9250 thread takes : 4.59532 s
+MPU Value : : roll:-0.788407, pitch:-2.604573, yaw:0.655856
+MPU time  : -473556429
+count : 6
+MPU9250 thread takes : 4.60104 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.788249, pitch:-2.329717, yaw:0.686207
+MPU time  : -472676429
+count : 1
+MPU9250 thread takes : 4.65274 s
+MPU Value : : roll:-0.788091, pitch:-2.085397, yaw:0.716551
+MPU time  : -472656429
+count : 2
+MPU9250 thread takes : 4.65313 s
+MPU Value : : roll:-0.757452, pitch:-1.932572, yaw:0.685926
+MPU time  : -472636429
+count : 3
+MPU9250 thread takes : 4.65341 s
+MPU Value : : roll:-0.726819, pitch:-1.871222, yaw:0.655307
+MPU time  : -472616429
+count : 4
+MPU9250 thread takes : 4.6537 s
+MPU Value : : roll:-0.757155, pitch:-1.901329, yaw:0.685658
+MPU time  : -472596429
+count : 5
+MPU9250 thread takes : 4.65411 s
+MPU Value : : roll:-0.787485, pitch:-1.961913, yaw:0.685521
+MPU time  : -472576429
+count : 6
+MPU9250 thread takes : 4.65441 s
+MPU Value : : roll:0.736757, pitch:3.982413, yaw:0.289122
+MPU time  : -472376429
+count : 7
+MPU9250 thread takes : 4.66026 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.706128, pitch:3.768244, yaw:0.350027
+MPU time  : -471496429
+count : 1
+MPU9250 thread takes : 4.71219 s
+MPU Value : : roll:0.645024, pitch:3.554119, yaw:0.380439
+MPU time  : -471476429
+count : 2
+MPU9250 thread takes : 4.7125 s
+MPU Value : : roll:0.583931, pitch:3.309554, yaw:0.380363
+MPU time  : -471456429
+count : 3
+MPU9250 thread takes : 4.71281 s
+MPU Value : : roll:0.492369, pitch:3.034557, yaw:0.349805
+MPU time  : -471436429
+count : 4
+MPU9250 thread takes : 4.71311 s
+MPU Value : : roll:0.461789, pitch:2.820578, yaw:0.349735
+MPU time  : -471416429
+count : 5
+MPU9250 thread takes : 4.71339 s
+MPU Value : : roll:0.431215, pitch:2.637124, yaw:0.441110
+MPU time  : -471396429
+count : 6
+MPU9250 thread takes : 4.71367 s
+MPU Value : : roll:-0.849103, pitch:1.173474, yaw:0.075242
+MPU time  : -471196429
+count : 7
+MPU9250 thread takes : 4.71929 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.787970, pitch:1.203721, yaw:0.075227
+MPU time  : -470316429
+count : 1
+MPU9250 thread takes : 4.77108 s
+MPU Value : : roll:-0.726849, pitch:1.264444, yaw:0.105693
+MPU time  : -470296429
+count : 2
+MPU9250 thread takes : 4.77138 s
+MPU Value : : roll:-0.665740, pitch:1.294672, yaw:-0.016255
+MPU time  : -470276429
+count : 3
+MPU9250 thread takes : 4.77183 s
+MPU Value : : roll:-0.604643, pitch:1.446822, yaw:-0.168660
+MPU time  : -470256429
+count : 4
+MPU9250 thread takes : 4.77211 s
+MPU Value : : roll:-0.574041, pitch:1.568459, yaw:-0.290553
+MPU time  : -470236429
+count : 5
+MPU9250 thread takes : 4.77242 s
+MPU Value : : roll:-0.512962, pitch:1.690073, yaw:-0.473385
+MPU time  : -470216429
+count : 6
+MPU9250 thread takes : 4.77272 s
+MPU Value : : roll:-0.360451, pitch:-2.181442, yaw:0.441161
+MPU time  : -470016429
+count : 7
+MPU9250 thread takes : 4.77835 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.299416, pitch:-2.241969, yaw:0.502036
+MPU time  : -469136429
+count : 1
+MPU9250 thread takes : 4.83015 s
+MPU Value : : roll:-0.146948, pitch:-2.272002, yaw:0.471454
+MPU time  : -469116429
+count : 2
+MPU9250 thread takes : 4.83046 s
+MPU Value : : roll:0.005490, pitch:-2.362993, yaw:0.349433
+MPU time  : -469096429
+count : 3
+MPU9250 thread takes : 4.83084 s
+MPU Value : : roll:0.157898, pitch:-2.423484, yaw:0.227436
+MPU time  : -469076429
+count : 4
+MPU9250 thread takes : 4.83114 s
+MPU Value : : roll:0.310275, pitch:-2.453481, yaw:0.135945
+MPU time  : -469056429
+count : 5
+MPU9250 thread takes : 4.83144 s
+MPU Value : : roll:0.432140, pitch:-2.483472, yaw:0.074955
+MPU time  : -469036429
+count : 6
+MPU9250 thread takes : 4.8319 s
+MPU Value : : roll:0.188199, pitch:0.199415, yaw:-0.748066
+MPU time  : -468836429
+count : 7
+MPU9250 thread takes : 4.83754 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.096717, pitch:0.229857, yaw:-0.565026
+MPU time  : -467956429
+count : 1
+MPU9250 thread takes : 4.88927 s
+MPU Value : : roll:0.035734, pitch:0.229811, yaw:-0.382023
+MPU time  : -467936429
+count : 2
+MPU9250 thread takes : 4.88958 s
+MPU Value : : roll:-0.025237, pitch:0.290729, yaw:-0.199057
+MPU time  : -467916429
+count : 3
+MPU9250 thread takes : 4.88992 s
+MPU Value : : roll:-0.086195, pitch:0.321153, yaw:-0.016127
+MPU time  : -467896429
+count : 4
+MPU9250 thread takes : 4.89022 s
+MPU Value : : roll:-0.147141, pitch:0.382052, yaw:0.105803
+MPU time  : -467876429
+count : 5
+MPU9250 thread takes : 4.89061 s
+MPU Value : : roll:-0.238557, pitch:0.442938, yaw:0.136264
+MPU time  : -467856429
+count : 6
+MPU9250 thread takes : 4.89091 s
+MPU Value : : roll:-0.390918, pitch:-0.319193, yaw:0.227682
+MPU time  : -467656429
+count : 7
+MPU9250 thread takes : 4.89649 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.543248, pitch:-0.288647, yaw:0.349563
+MPU time  : -466776429
+count : 1
+MPU9250 thread takes : 4.9484 s
+MPU Value : : roll:-0.665066, pitch:-0.258108, yaw:0.440938
+MPU time  : -466756429
+count : 2
+MPU9250 thread takes : 4.94871 s
+MPU Value : : roll:-0.786860, pitch:-0.166611, yaw:0.471332
+MPU time  : -466736429
+count : 3
+MPU9250 thread takes : 4.94901 s
+MPU Value : : roll:-0.878148, pitch:-0.105614, yaw:0.440756
+MPU time  : -466716429
+count : 4
+MPU9250 thread takes : 4.94939 s
+MPU Value : : roll:-0.969417, pitch:-0.044630, yaw:0.379704
+MPU time  : -466696429
+count : 5
+MPU9250 thread takes : 4.94969 s
+MPU Value : : roll:-1.091150, pitch:-0.044621, yaw:0.349147
+MPU time  : -466676429
+count : 6
+MPU9250 thread takes : 4.95 s
+MPU Value : : roll:-0.024072, pitch:-0.410393, yaw:-0.778746
+MPU time  : -466476429
+count : 7
+MPU9250 thread takes : 4.95583 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.176476, pitch:-0.318866, yaw:-0.687145
+MPU time  : -465596429
+count : 1
+MPU9250 thread takes : 5.00762 s
+MPU Value : : roll:-0.298367, pitch:-0.196875, yaw:-0.595563
+MPU time  : -465576429
+count : 2
+MPU9250 thread takes : 5.00803 s
+MPU Value : : roll:-0.420235, pitch:-0.135872, yaw:-0.503999
+MPU time  : -465556429
+count : 3
+MPU9250 thread takes : 5.0084 s
+MPU Value : : roll:-0.542077, pitch:-0.105363, yaw:-0.412453
+MPU time  : -465536429
+count : 4
+MPU9250 thread takes : 5.0087 s
+MPU Value : : roll:-0.663896, pitch:-0.044379, yaw:-0.320925
+MPU time  : -465516429
+count : 5
+MPU9250 thread takes : 5.009 s
+MPU Value : : roll:-0.572318, pitch:2.424648, yaw:0.715517
+MPU time  : -465296429
+count : 6
+MPU9250 thread takes : 5.01467 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.541722, pitch:2.454645, yaw:0.532484
+MPU time  : -464416429
+count : 1
+MPU9250 thread takes : 5.06648 s
+MPU Value : : roll:-0.541613, pitch:2.484636, yaw:0.349487
+MPU time  : -464396429
+count : 2
+MPU9250 thread takes : 5.06678 s
+MPU Value : : roll:-0.541505, pitch:2.514621, yaw:0.197009
+MPU time  : -464376429
+count : 3
+MPU9250 thread takes : 5.06715 s
+MPU Value : : roll:-0.480433, pitch:2.575081, yaw:0.105524
+MPU time  : -464356429
+count : 4
+MPU9250 thread takes : 5.06745 s
+MPU Value : : roll:-0.419374, pitch:2.605048, yaw:0.135985
+MPU time  : -464336429
+count : 5
+MPU9250 thread takes : 5.06789 s
+MPU Value : : roll:-0.297363, pitch:2.635008, yaw:0.166439
+MPU time  : -464316429
+count : 6
+MPU9250 thread takes : 5.0682 s
+MPU Value : : roll:-0.266822, pitch:-0.596579, yaw:0.837003
+MPU time  : -464116429
+count : 7
+MPU9250 thread takes : 5.07383 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.358214, pitch:-0.565978, yaw:0.775873
+MPU time  : -463236429
+count : 1
+MPU9250 thread takes : 5.12619 s
+MPU Value : : roll:-0.388624, pitch:-0.596347, yaw:0.684272
+MPU time  : -463216429
+count : 2
+MPU9250 thread takes : 5.12653 s
+MPU Value : : roll:-0.419028, pitch:-0.565746, yaw:0.592690
+MPU time  : -463196429
+count : 3
+MPU9250 thread takes : 5.12687 s
+MPU Value : : roll:-0.479907, pitch:-0.626596, yaw:0.501127
+MPU time  : -463176429
+count : 4
+MPU9250 thread takes : 5.12724 s
+MPU Value : : roll:-0.540775, pitch:-0.656952, yaw:0.409581
+MPU time  : -463156429
+count : 5
+MPU9250 thread takes : 5.12755 s
+MPU Value : : roll:0.282339, pitch:-1.114047, yaw:0.013237
+MPU time  : -462936429
+count : 6
+MPU9250 thread takes : 5.13323 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:0.312765, pitch:-1.144306, yaw:-0.078211
+MPU time  : -462056429
+count : 1
+MPU9250 thread takes : 5.1851 s
+MPU Value : : roll:0.343184, pitch:-1.205040, yaw:-0.169640
+MPU time  : -462036429
+count : 2
+MPU9250 thread takes : 5.18542 s
+MPU Value : : roll:0.373597, pitch:-1.265763, yaw:-0.322015
+MPU time  : -462016429
+count : 3
+MPU9250 thread takes : 5.18571 s
+MPU Value : : roll:0.343040, pitch:-1.326473, yaw:-0.504840
+MPU time  : -461996429
+count : 4
+MPU9250 thread takes : 5.18607 s
+MPU Value : : roll:0.282008, pitch:-1.387171, yaw:-0.657148
+MPU time  : -461976429
+count : 5
+MPU9250 thread takes : 5.18635 s
+MPU Value : : roll:0.251470, pitch:-1.417375, yaw:-0.778943
+MPU time  : -461956429
+count : 6
+MPU9250 thread takes : 5.18663 s
+MPU Value : : roll:-0.327732, pitch:3.124683, yaw:-0.748306
+MPU time  : -461756429
+count : 7
+MPU9250 thread takes : 5.19235 s
+MPU-9250 fifo has overflowed*
+MPU Value : : roll:-0.297185, pitch:3.002131, yaw:-0.656711
+MPU time  : -460876429
+count : 1
+MPU9250 thread takes : 5.24405 s
+MPU Value : : roll:-0.266644, pitch:2.849122, yaw:-0.473690
+MPU time  : -460856429
+count : 2
+MPU9250 thread takes : 5.24434 s
+MPU Value : : roll:-0.236109, pitch:2.635180, yaw:-0.229741
+MPU time  : -460836429
+count : 3
+MPU9250 thread takes : 5.24462 s
+MPU Value : : roll:-0.236062, pitch:2.482244, yaw:-0.046805
+MPU time  : -460816429
+count : 4
+MPU9250 thread takes : 5.24496 s
+MPU Value : : roll:-0.236015, pitch:2.390303, yaw:0.105613
+MPU time  : -460796429
+count : 5
+MPU9250 thread takes : 5.24526 s
+MPU Value : : roll:-0.205486, pitch:2.328862, yaw:0.227519
+MPU time  : -460776429
+count : 6
+MPU9250 thread takes : 5.24556 s
+MPU Value : : roll:-0.053036, pitch:-0.323512, yaw:0.318918
+MPU time  : -460576429
+count : 7
+MPU9250 thread takes : 5.25122 s
+MPU-9250 fifo has overflowed
